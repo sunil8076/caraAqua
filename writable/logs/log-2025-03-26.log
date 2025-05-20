@@ -1,0 +1,983 @@
+CRITICAL - 2025-03-26 05:21:04 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 28.
+ 1 APPPATH\Views\admin\home\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:21:50 --> ErrorException: Undefined variable $count
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 28.
+ 1 APPPATH\Views\admin\home\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:22:56 --> ErrorException: Undefined variable $testimonial
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonial', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:29 --> ErrorException: Undefined variable $testimonial
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonial', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:30 --> ErrorException: Undefined variable $testimonial
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonial', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:30 --> ErrorException: Undefined variable $testimonial
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonial', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:30 --> ErrorException: Undefined variable $testimonial
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonial', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:31 --> ErrorException: Undefined variable $testimonial
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonial', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:31 --> ErrorException: Undefined variable $testimonial
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonial', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:31 --> ErrorException: Undefined variable $testimonial
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonial', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:31 --> ErrorException: Undefined variable $testimonial
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonial', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:23:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/home]
+in APPPATH\Views\admin\home\index.php on line 29.
+ 1 APPPATH\Views\admin\home\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/index', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(13): App\Controllers\BaseController->adminFrontendLoad('home/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:28:43 --> ErrorException: Undefined variable $testimonial
+[Method: GET, Route: admin/home/edit-home/1]
+in APPPATH\Views\admin\home\edit-home.php on line 18.
+ 1 APPPATH\Views\admin\home\edit-home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonial', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/edit-home', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/edit-home', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(18): App\Controllers\BaseController->adminFrontendLoad('home/edit-home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->editHome('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:30:09 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: admin/home/edit-home/1]
+in APPPATH\Views\admin\home\edit-home.php on line 23.
+ 1 APPPATH\Views\admin\home\edit-home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/edit-home', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/edit-home', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(18): App\Controllers\BaseController->adminFrontendLoad('home/edit-home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->editHome('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:32:09 --> ErrorException: Undefined array key "image"
+[Method: GET, Route: admin/home/edit-home/1]
+in APPPATH\Views\admin\home\edit-home.php on line 43.
+ 1 APPPATH\Views\admin\home\edit-home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/edit-home', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/edit-home', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(18): App\Controllers\BaseController->adminFrontendLoad('home/edit-home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->editHome('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:35:10 --> ErrorException: Undefined array key "about_image4"
+[Method: GET, Route: admin/home/edit-home/1]
+in APPPATH\Views\admin\home\edit-home.php on line 103.
+ 1 APPPATH\Views\admin\home\edit-home.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "about_image4"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php', 103)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/edit-home', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/edit-home', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(18): App\Controllers\BaseController->adminFrontendLoad('home/edit-home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->editHome('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:35:11 --> ErrorException: Undefined array key "about_image4"
+[Method: GET, Route: admin/home/edit-home/1]
+in APPPATH\Views\admin\home\edit-home.php on line 103.
+ 1 APPPATH\Views\admin\home\edit-home.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "about_image4"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php', 103)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/edit-home', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/edit-home', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(18): App\Controllers\BaseController->adminFrontendLoad('home/edit-home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->editHome('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:35:12 --> ErrorException: Undefined array key "about_image4"
+[Method: GET, Route: admin/home/edit-home/1]
+in APPPATH\Views\admin\home\edit-home.php on line 103.
+ 1 APPPATH\Views\admin\home\edit-home.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "about_image4"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php', 103)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/edit-home', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/edit-home', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(18): App\Controllers\BaseController->adminFrontendLoad('home/edit-home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->editHome('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 05:35:12 --> ErrorException: Undefined array key "about_image4"
+[Method: GET, Route: admin/home/edit-home/1]
+in APPPATH\Views\admin\home\edit-home.php on line 103.
+ 1 APPPATH\Views\admin\home\edit-home.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "about_image4"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php', 103)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\home\\edit-home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/home/edit-home', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/home/edit-home', [...])
+ 6 APPPATH\Controllers\Admin\Home.php(18): App\Controllers\BaseController->adminFrontendLoad('home/edit-home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Home->editHome('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:25:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/about]
+in APPPATH\Views\admin\about\index.php on line 29.
+ 1 APPPATH\Views\admin\about\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/index', [...])
+ 6 APPPATH\Controllers\Admin\About.php(13): App\Controllers\BaseController->adminFrontendLoad('about/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:28:24 --> ErrorException: Undefined variable $home
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit-about.php on line 16.
+ 1 APPPATH\Views\admin\about\edit-about.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $home', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit-about', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit-about', [...])
+ 6 APPPATH\Controllers\Admin\About.php(18): App\Controllers\BaseController->adminFrontendLoad('about/edit-about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->editAbout('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:29:02 --> ErrorException: Undefined variable $home
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit-about.php on line 16.
+ 1 APPPATH\Views\admin\about\edit-about.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $home', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit-about', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit-about', [...])
+ 6 APPPATH\Controllers\Admin\About.php(18): App\Controllers\BaseController->adminFrontendLoad('about/edit-about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->editAbout('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:30:31 --> ErrorException: Undefined variable $home
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit-about.php on line 29.
+ 1 APPPATH\Views\admin\about\edit-about.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $home', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit-about', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit-about', [...])
+ 6 APPPATH\Controllers\Admin\About.php(18): App\Controllers\BaseController->adminFrontendLoad('about/edit-about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->editAbout('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:30:53 --> ErrorException: Undefined variable $home
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit-about.php on line 29.
+ 1 APPPATH\Views\admin\about\edit-about.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $home', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit-about', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit-about', [...])
+ 6 APPPATH\Controllers\Admin\About.php(18): App\Controllers\BaseController->adminFrontendLoad('about/edit-about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->editAbout('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:30:53 --> ErrorException: Undefined variable $home
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit-about.php on line 29.
+ 1 APPPATH\Views\admin\about\edit-about.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $home', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit-about', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit-about', [...])
+ 6 APPPATH\Controllers\Admin\About.php(18): App\Controllers\BaseController->adminFrontendLoad('about/edit-about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->editAbout('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:30:53 --> ErrorException: Undefined variable $home
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit-about.php on line 29.
+ 1 APPPATH\Views\admin\about\edit-about.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $home', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit-about', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit-about', [...])
+ 6 APPPATH\Controllers\Admin\About.php(18): App\Controllers\BaseController->adminFrontendLoad('about/edit-about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->editAbout('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:31:29 --> ErrorException: Undefined variable $home
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit-about.php on line 36.
+ 1 APPPATH\Views\admin\about\edit-about.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $home', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit-about', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit-about', [...])
+ 6 APPPATH\Controllers\Admin\About.php(18): App\Controllers\BaseController->adminFrontendLoad('about/edit-about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->editAbout('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:31:31 --> ErrorException: Undefined variable $home
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit-about.php on line 36.
+ 1 APPPATH\Views\admin\about\edit-about.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $home', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\about\\edit-about.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit-about', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit-about', [...])
+ 6 APPPATH\Controllers\Admin\About.php(18): App\Controllers\BaseController->adminFrontendLoad('about/edit-about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->editAbout('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:06:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 29.
+ 1 APPPATH\Views\admin\banner\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [...])
+ 6 APPPATH\Controllers\Admin\Banner.php(13): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:06:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 29.
+ 1 APPPATH\Views\admin\banner\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [...])
+ 6 APPPATH\Controllers\Admin\Banner.php(13): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:06:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 29.
+ 1 APPPATH\Views\admin\banner\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [...])
+ 6 APPPATH\Controllers\Admin\Banner.php(13): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:06:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 29.
+ 1 APPPATH\Views\admin\banner\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [...])
+ 6 APPPATH\Controllers\Admin\Banner.php(13): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:06:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 29.
+ 1 APPPATH\Views\admin\banner\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [...])
+ 6 APPPATH\Controllers\Admin\Banner.php(13): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:06:53 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: admin/banner]
+in APPPATH\Controllers\Admin\Banner.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Banner.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Banner')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Banner')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Banner', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:07:37 --> ErrorException: Undefined variable $about
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 31.
+ 1 APPPATH\Views\admin\banner\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $about', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [...])
+ 6 APPPATH\Controllers\Admin\Banner.php(13): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:07:39 --> ErrorException: Undefined variable $about
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 31.
+ 1 APPPATH\Views\admin\banner\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $about', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [...])
+ 6 APPPATH\Controllers\Admin\Banner.php(13): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:07:39 --> ErrorException: Undefined variable $about
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 31.
+ 1 APPPATH\Views\admin\banner\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $about', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [...])
+ 6 APPPATH\Controllers\Admin\Banner.php(13): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:07:39 --> ErrorException: Undefined variable $about
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 31.
+ 1 APPPATH\Views\admin\banner\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $about', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [...])
+ 6 APPPATH\Controllers\Admin\Banner.php(13): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 07:11:52 --> ErrorException: Undefined variable $about
+[Method: GET, Route: admin/banner/edit-banner/1]
+in APPPATH\Views\admin\banner\edit-banner.php on line 52.
+ 1 APPPATH\Views\admin\banner\edit-banner.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $about', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\edit-banner.php', 52)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\banner\\edit-banner.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/edit-banner', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/edit-banner', [...])
+ 6 APPPATH\Controllers\Admin\Banner.php(17): App\Controllers\BaseController->adminFrontendLoad('banner/edit-banner', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->editBanner('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 10:29:49 --> ParseError: syntax error, unexpected token "/"
+[Method: GET, Route: /]
+in APPPATH\Views\home\index.php on line 274.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/index', [...])
+ 4 APPPATH\Controllers\Home.php(21): App\Controllers\BaseController->frontendLoad('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 10:35:56 --> BadMethodCallException: Call to undefined method App\Models\HomeModel::about
+[Method: GET, Route: about]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Model->__call('about', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 10:35:57 --> BadMethodCallException: Call to undefined method App\Models\HomeModel::about
+[Method: GET, Route: about]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Model->__call('about', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 10:35:59 --> BadMethodCallException: Call to undefined method App\Models\HomeModel::about
+[Method: GET, Route: about]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Model->__call('about', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 10:35:59 --> BadMethodCallException: Call to undefined method App\Models\HomeModel::about
+[Method: GET, Route: about]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Model->__call('about', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 10:35:59 --> BadMethodCallException: Call to undefined method App\Models\HomeModel::about
+[Method: GET, Route: about]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Home.php(30): CodeIgniter\Model->__call('about', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 10:41:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "1742971920_db07d5f45eb7c33e1a6f.jpg alt="
+[Method: GET, Route: assets/uploads/about/1742971920_db07d5f45eb7c33e1a6f.jpg%20alt=]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('assets/uploads/about/1742971920_db07d5f45eb7c33e1a6f.jpg alt=')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/uploads/about/1742971920_db07d5f45eb7c33e1a6f.jpg alt=')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:13:00 --> Error: Call to undefined function App\Controllers\pageTitle()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:13:03 --> Error: Call to undefined function App\Controllers\pageTitle()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:14:45 --> ErrorException: Undefined variable $title
+[Method: GET, Route: service]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(44): App\Controllers\BaseController->frontendLoad('service')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:19:45 --> ErrorException: Undefined variable $title
+[Method: GET, Route: about]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(66): App\Controllers\BaseController->frontendLoad('about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:21:53 --> ErrorException: Undefined variable $title
+[Method: GET, Route: contact]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(105): App\Controllers\BaseController->frontendLoad('contact')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:21:54 --> ErrorException: Undefined variable $title
+[Method: GET, Route: contact]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(105): App\Controllers\BaseController->frontendLoad('contact')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:21:56 --> ErrorException: Undefined variable $title
+[Method: GET, Route: contact]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(105): App\Controllers\BaseController->frontendLoad('contact')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:22:07 --> ErrorException: Undefined variable $title
+[Method: GET, Route: contact]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(105): App\Controllers\BaseController->frontendLoad('contact')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:23:03 --> ErrorException: Undefined variable $title
+[Method: GET, Route: product/commercial-ro-plant]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(146): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('commercial-ro-plant')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:23:52 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: product/commercial-ro-plant]
+in APPPATH\Controllers\Home.php on line 149.
+ 1 APPPATH\Controllers\Home.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('commercial-ro-plant')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:23:54 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: product/commercial-ro-plant]
+in APPPATH\Controllers\Home.php on line 149.
+ 1 APPPATH\Controllers\Home.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('commercial-ro-plant')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:23:54 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: product/commercial-ro-plant]
+in APPPATH\Controllers\Home.php on line 149.
+ 1 APPPATH\Controllers\Home.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('commercial-ro-plant')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:23:54 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: product/commercial-ro-plant]
+in APPPATH\Controllers\Home.php on line 149.
+ 1 APPPATH\Controllers\Home.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('commercial-ro-plant')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:23:55 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: product/commercial-ro-plant]
+in APPPATH\Controllers\Home.php on line 149.
+ 1 APPPATH\Controllers\Home.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('commercial-ro-plant')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:23:55 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: product/commercial-ro-plant]
+in APPPATH\Controllers\Home.php on line 149.
+ 1 APPPATH\Controllers\Home.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('commercial-ro-plant')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:24:00 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Controllers\Home.php on line 149.
+ 1 APPPATH\Controllers\Home.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 149)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:32:59 --> ErrorException: Undefined array key "message"
+[Method: GET, Route: admin/service-enquiry]
+in APPPATH\Views\admin\service-enquiry.php on line 39.
+ 1 APPPATH\Views\admin\service-enquiry.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "message"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service-enquiry.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service-enquiry.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/service-enquiry', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/service-enquiry', [...])
+ 6 APPPATH\Controllers\Admin\Enquiry.php(64): App\Controllers\BaseController->adminFrontendLoad('service-enquiry', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->serviceEnquiryList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 11:33:01 --> ErrorException: Undefined array key "message"
+[Method: GET, Route: admin/service-enquiry]
+in APPPATH\Views\admin\service-enquiry.php on line 39.
+ 1 APPPATH\Views\admin\service-enquiry.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "message"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service-enquiry.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service-enquiry.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/service-enquiry', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/service-enquiry', [...])
+ 6 APPPATH\Controllers\Admin\Enquiry.php(64): App\Controllers\BaseController->adminFrontendLoad('service-enquiry', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->serviceEnquiryList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 12:44:31 --> ErrorException: Undefined variable $title
+[Method: GET, Route: thankyou]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(140): App\Controllers\BaseController->frontendLoad('thankyou')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thankYou()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

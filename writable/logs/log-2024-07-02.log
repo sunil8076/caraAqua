@@ -1,0 +1,1698 @@
+CRITICAL - 2024-07-02 05:07:57 --> ErrorException: Undefined variable $route
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php', 9)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:07:57 --> ErrorException: Undefined variable $route
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php', 9)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:07:58 --> ErrorException: Undefined variable $route
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php', 9)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:07:58 --> ErrorException: Undefined variable $route
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php', 9)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:08:00 --> ErrorException: Undefined variable $route
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php', 9)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:08:11 --> ErrorException: Undefined variable $route
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 9.
+ 1 APPPATH\Config\Routes.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php', 9)
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('F:\\xampp\\htdocs\\exam-advisory\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:08:37 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Login::index"
+[Method: GET, Route: admin-login]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Login::index')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('admin-login')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin-login')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:22:33 --> ErrorException: Undefined variable $userData
+[Method: GET, Route: admin-login]
+in APPPATH\Views\admin\common\header.php on line 50.
+ 1 APPPATH\Views\admin\common\header.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(59): view('admin/common/header', [])
+ 6 APPPATH\Controllers\Admin\Login.php(8): App\Controllers\BaseController->adminFrontendLoad('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:22:48 --> ErrorException: Undefined variable $userData
+[Method: GET, Route: admin-login]
+in APPPATH\Views\admin\common\header.php on line 50.
+ 1 APPPATH\Views\admin\common\header.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(59): view('admin/common/header', [])
+ 6 APPPATH\Controllers\Admin\Login.php(8): App\Controllers\BaseController->adminFrontendLoad('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:23:30 --> ErrorException: Undefined variable $userData
+[Method: GET, Route: admin-login]
+in APPPATH\Views\admin\common\header.php on line 50.
+ 1 APPPATH\Views\admin\common\header.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(59): view('admin/common/header', [])
+ 6 APPPATH\Controllers\Admin\Login.php(8): App\Controllers\BaseController->adminFrontendLoad('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:24:42 --> ErrorException: Undefined variable $userData
+[Method: GET, Route: admin-login]
+in APPPATH\Views\admin\common\header.php on line 50.
+ 1 APPPATH\Views\admin\common\header.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(59): view('admin/common/header', [])
+ 6 APPPATH\Controllers\Admin\Login.php(8): App\Controllers\BaseController->adminFrontendLoad('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:40:54 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:42:36 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:43:04 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:43:06 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:43:41 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:43:47 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:43:56 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:44:10 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 05:45:28 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:11:23 --> Error: Class "App\Controllers\Admin\AdminModel" not found
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:11:28 --> Error: Class "App\Controllers\Admin\AdminModel" not found
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:12:07 --> Error: Class "App\Controllers\Admin\AdminModel" not found
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:12:15 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:12:21 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:12:34 --> Error: Class "App\Controllers\Admin\AdminModel" not found
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:12:47 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:12:52 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:13:37 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:13:48 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:14:08 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:14:13 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:14:21 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:14:32 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:15:10 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:15:13 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:16:24 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:16:34 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:16:36 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:17:20 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:17:20 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:17:20 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:17:20 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:17:21 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:17:21 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:17:31 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:17:43 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:18:19 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:18:29 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:18:32 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:19:26 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:19:53 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:19:54 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:19:54 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:19:54 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:19:54 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:20:53 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:21:12 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:21:16 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:21:16 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:21:17 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin-login]
+in APPPATH\Controllers\Admin\Login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:25:03 --> ErrorException: Undefined property: App\Controllers\Admin\Login::$adminSalt
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 21.
+ 1 APPPATH\Controllers\Admin\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Login::$adminSalt', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:25:42 --> ErrorException: Undefined property: App\Controllers\Admin\Login::$adminSalt
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 21.
+ 1 APPPATH\Controllers\Admin\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Login::$adminSalt', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:25:48 --> ErrorException: Undefined property: App\Controllers\Admin\Login::$adminSalt
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 21.
+ 1 APPPATH\Controllers\Admin\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Login::$adminSalt', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:57:54 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\common\header.php on line 72.
+ 1 APPPATH\Views\admin\common\header.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(63): view('admin/common/header', [])
+ 6 APPPATH\Controllers\Admin\Login.php(22): App\Controllers\BaseController->adminFrontendLoad('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 06:58:07 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\common\header.php on line 72.
+ 1 APPPATH\Views\admin\common\header.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(63): view('admin/common/header', [])
+ 6 APPPATH\Controllers\Admin\Login.php(22): App\Controllers\BaseController->adminFrontendLoad('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:01:33 --> ErrorException: Undefined variable $session
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\common\header.php on line 72.
+ 1 APPPATH\Views\admin\common\header.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(63): view('admin/common/header', [])
+ 6 APPPATH\Controllers\Admin\Login.php(22): App\Controllers\BaseController->adminFrontendLoad('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:02:52 --> Error: Object of class CodeIgniter\Session\Session could not be converted to string
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\common\header.php on line 72.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 4 APPPATH\Controllers\BaseController.php(63): view('admin/common/header', [])
+ 5 APPPATH\Controllers\Admin\Login.php(22): App\Controllers\BaseController->adminFrontendLoad('index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:03:10 --> ErrorException: Undefined variable $_session
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\common\header.php on line 72.
+ 1 APPPATH\Views\admin\common\header.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_session', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(63): view('admin/common/header', [])
+ 6 APPPATH\Controllers\Admin\Login.php(22): App\Controllers\BaseController->adminFrontendLoad('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:03:21 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\common\header.php on line 72.
+ 1 APPPATH\Views\admin\common\header.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(63): view('admin/common/header', [])
+ 6 APPPATH\Controllers\Admin\Login.php(22): App\Controllers\BaseController->adminFrontendLoad('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:04:25 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 23.
+ 1 APPPATH\Controllers\Admin\Login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Login.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:05:50 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Views\admin\common\header.php on line 72.
+ 1 APPPATH\Views\admin\common\header.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(63): view('admin/common/header', [])
+ 6 APPPATH\Controllers\Admin\Login.php(22): App\Controllers\BaseController->adminFrontendLoad('index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:18:16 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:22:18 --> Error: Call to a member function getMethod() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:22:48 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:23:17 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:23:25 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:23:25 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:23:25 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:23:25 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:23:33 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:24:04 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:24:04 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:24:04 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:24:05 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:24:05 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:24:05 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:24:05 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:24:05 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:24:30 --> Error: Call to a member function has() on null
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:25:21 --> Error: Cannot call constructor
+[Method: GET, Route: admin/dashboard]
+in APPPATH\Controllers\Admin\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:05 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:06 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:06 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:21 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:22 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:22 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:22 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:22 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:22 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:23 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:23 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:23 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:23 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:23 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:23 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:24 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:24 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:25 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:25 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:27:52 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:28:26 --> Error: Call to a member function loginValify() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:28:56 --> Error: Call to undefined method App\Controllers\BaseController::construct()
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:29:05 --> Error: Call to a member function has() on null
+[Method: POST, Route: admin/User/adminlogin]
+in APPPATH\Controllers\Admin\Login.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:41:55 --> ErrorException: Undefined variable $bannerList
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 29.
+ 1 APPPATH\Views\admin\banner\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bannerList', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\banner\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [])
+ 6 APPPATH\Controllers\Admin\Banner.php(14): App\Controllers\BaseController->adminFrontendLoad('banner/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 07:42:33 --> ErrorException: Undefined variable $bannerList
+[Method: GET, Route: admin/banner]
+in APPPATH\Views\admin\banner\index.php on line 29.
+ 1 APPPATH\Views\admin\banner\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bannerList', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\banner\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [])
+ 6 APPPATH\Controllers\Admin\Banner.php(14): App\Controllers\BaseController->adminFrontendLoad('banner/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:40:49 --> ErrorException: Cannot redeclare App\Models\Admin\BannerModel::get()
+[Method: GET, Route: admin/banner/edit-banner/1]
+in APPPATH\Models\Admin\BannerModel.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-02 09:40:49 --> ErrorException: Cannot redeclare App\Models\Admin\BannerModel::get()
+[Method: GET, Route: admin/banner/edit-banner/1]
+in APPPATH\Models\Admin\BannerModel.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-02 09:40:49 --> ErrorException: Cannot redeclare App\Models\Admin\BannerModel::get()
+[Method: GET, Route: admin/banner/edit-banner/1]
+in APPPATH\Models\Admin\BannerModel.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-02 09:40:49 --> ErrorException: Cannot redeclare App\Models\Admin\BannerModel::get()
+[Method: GET, Route: admin/banner/edit-banner/1]
+in APPPATH\Models\Admin\BannerModel.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-02 09:44:51 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:44:55 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:47:15 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:47:27 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 23.
+ 1 APPPATH\Controllers\Admin\Banner.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Banner.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:47:55 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:47:59 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:48:39 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:48:43 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:50:51 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:50:55 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:50:55 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:51:36 --> Error: Call to a member function getRandomName() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:51:39 --> Error: Call to a member function getRandomName() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:51:39 --> Error: Call to a member function getRandomName() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:52:58 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:53:01 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:56:56 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:56:59 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:56:59 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:56:59 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:57:00 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:57:00 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:57:00 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:57:00 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 09:57:00 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:12:34 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:12:40 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:14:59 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:15:03 --> Error: Call to a member function isValid() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:18:37 --> Error: Call to a member function hasMoved() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:18:40 --> Error: Call to a member function hasMoved() on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:21:10 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 26.
+ 1 APPPATH\Controllers\Admin\Banner.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Banner.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:22:05 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 26.
+ 1 APPPATH\Controllers\Admin\Banner.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Banner.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:23:10 --> ErrorException: Undefined array key "fileName"
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 26.
+ 1 APPPATH\Controllers\Admin\Banner.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fileName"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Banner.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:23:15 --> ErrorException: Undefined array key "fileName"
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 26.
+ 1 APPPATH\Controllers\Admin\Banner.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fileName"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Banner.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:23:26 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 26.
+ 1 APPPATH\Controllers\Admin\Banner.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Banner.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:24:17 --> ErrorException: Undefined array key "name:protected"
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 26.
+ 1 APPPATH\Controllers\Admin\Banner.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name:protected"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Banner.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:24:29 --> ErrorException: Undefined array key "name"
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 26.
+ 1 APPPATH\Controllers\Admin\Banner.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Banner.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:24:42 --> ErrorException: Attempt to read property "name" on array
+[Method: POST, Route: admin/banner/updateBanner]
+in APPPATH\Controllers\Admin\Banner.php on line 26.
+ 1 APPPATH\Controllers\Admin\Banner.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Banner.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Banner->updateBanner()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:51:56 --> ErrorException: Undefined variable $bannerList
+[Method: GET, Route: admin/about]
+in APPPATH\Views\admin\banner\index.php on line 29.
+ 1 APPPATH\Views\admin\banner\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bannerList', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\banner\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\banner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/banner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/banner/index', [...])
+ 6 APPPATH\Controllers\Admin\About.php(15): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:58:04 --> ErrorException: Undefined array key "heading"
+[Method: GET, Route: admin/about]
+in APPPATH\Views\admin\about\index.php on line 35.
+ 1 APPPATH\Views\admin\about\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/index', [...])
+ 6 APPPATH\Controllers\Admin\About.php(15): App\Controllers\BaseController->adminFrontendLoad('about/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 10:59:56 --> ErrorException: Undefined variable $aboutList
+[Method: GET, Route: admin/about]
+in APPPATH\Views\admin\about\index.php on line 29.
+ 1 APPPATH\Views\admin\about\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aboutList', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/index', [...])
+ 6 APPPATH\Controllers\Admin\About.php(15): App\Controllers\BaseController->adminFrontendLoad('about/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 11:00:42 --> ParseError: Unmatched '}'
+[Method: GET, Route: admin/about]
+in APPPATH\Views\admin\about\index.php on line 40.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/about/index', [...])
+ 4 APPPATH\Controllers\Admin\About.php(15): App\Controllers\BaseController->adminFrontendLoad('about/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 11:00:59 --> ErrorException: Undefined variable $count
+[Method: GET, Route: admin/about]
+in APPPATH\Views\admin\about\index.php on line 33.
+ 1 APPPATH\Views\admin\about\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/index', [...])
+ 6 APPPATH\Controllers\Admin\About.php(15): App\Controllers\BaseController->adminFrontendLoad('about/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 11:01:23 --> ErrorException: Undefined array key "heading"
+[Method: GET, Route: admin/about]
+in APPPATH\Views\admin\about\index.php on line 35.
+ 1 APPPATH\Views\admin\about\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/index', [...])
+ 6 APPPATH\Controllers\Admin\About.php(15): App\Controllers\BaseController->adminFrontendLoad('about/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 11:05:53 --> ErrorException: Undefined variable $bannerData
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit.php on line 30.
+ 1 APPPATH\Views\admin\about\edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bannerData', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\edit.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit', [...])
+ 6 APPPATH\Controllers\Admin\About.php(19): App\Controllers\BaseController->adminFrontendLoad('about/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 11:53:29 --> ErrorException: Undefined array key "file"
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit.php on line 89.
+ 1 APPPATH\Views\admin\about\edit.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\edit.php', 89)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit', [...])
+ 6 APPPATH\Controllers\Admin\About.php(19): App\Controllers\BaseController->adminFrontendLoad('about/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 11:53:53 --> ErrorException: Undefined array key "file"
+[Method: GET, Route: admin/about/edit-about/1]
+in APPPATH\Views\admin\about\edit.php on line 89.
+ 1 APPPATH\Views\admin\about\edit.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\edit.php', 89)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\about\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/about/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/about/edit', [...])
+ 6 APPPATH\Controllers\Admin\About.php(19): App\Controllers\BaseController->adminFrontendLoad('about/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 13:23:30 --> BadMethodCallException: Call to undefined method App\Models\Admin\AboutModel::updateAbout
+[Method: POST, Route: admin/about/update]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\About.php(95): CodeIgniter\Model->__call('updateAbout', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 13:23:40 --> BadMethodCallException: Call to undefined method App\Models\Admin\AboutModel::updateAbout
+[Method: POST, Route: admin/about/update]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\About.php(95): CodeIgniter\Model->__call('updateAbout', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 13:36:11 --> BadMethodCallException: Call to undefined method App\Models\Admin\AboutModel::updateAbout
+[Method: POST, Route: admin/about/update]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\About.php(96): CodeIgniter\Model->__call('updateAbout', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 13:36:36 --> BadMethodCallException: Call to undefined method App\Models\Admin\AboutModel::updateAbout
+[Method: POST, Route: admin/about/update]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\About.php(97): CodeIgniter\Model->__call('updateAbout', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-02 13:36:39 --> BadMethodCallException: Call to undefined method App\Models\Admin\AboutModel::updateAbout
+[Method: POST, Route: admin/about/update]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\About.php(97): CodeIgniter\Model->__call('updateAbout', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\About->update()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\About))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

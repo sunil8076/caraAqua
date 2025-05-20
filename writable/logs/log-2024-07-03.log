@@ -1,0 +1,1282 @@
+CRITICAL - 2024-07-03 05:00:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/parthner/index.php"
+[Method: GET, Route: admin/partner]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/parthner/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/parthner/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/parthner/index', [...])
+ 4 APPPATH\Controllers\Admin\Partner.php(15): App\Controllers\BaseController->adminFrontendLoad('parthner/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:03:04 --> ErrorException: Undefined variable $bannerData
+[Method: GET, Route: admin/partner/create]
+in APPPATH\Views\admin\partner\add.php on line 20.
+ 1 APPPATH\Views\admin\partner\add.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bannerData', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\add.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\add.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/partner/add', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/partner/add', [])
+ 6 APPPATH\Controllers\Admin\Partner.php(19): App\Controllers\BaseController->adminFrontendLoad('partner/add')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->create()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:11:05 --> ErrorException: Undefined variable $banner
+[Method: GET, Route: admin/partner]
+in APPPATH\Views\admin\partner\index.php on line 37.
+ 1 APPPATH\Views\admin\partner\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $banner', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/partner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/partner/index', [...])
+ 6 APPPATH\Controllers\Admin\Partner.php(15): App\Controllers\BaseController->adminFrontendLoad('partner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:11:28 --> ErrorException: Undefined variable $banner
+[Method: GET, Route: admin/partner]
+in APPPATH\Views\admin\partner\index.php on line 37.
+ 1 APPPATH\Views\admin\partner\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $banner', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/partner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/partner/index', [...])
+ 6 APPPATH\Controllers\Admin\Partner.php(15): App\Controllers\BaseController->adminFrontendLoad('partner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:13:08 --> ErrorException: Undefined variable $banner
+[Method: GET, Route: admin/partner]
+in APPPATH\Views\admin\partner\index.php on line 37.
+ 1 APPPATH\Views\admin\partner\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $banner', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/partner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/partner/index', [...])
+ 6 APPPATH\Controllers\Admin\Partner.php(15): App\Controllers\BaseController->adminFrontendLoad('partner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:13:17 --> ErrorException: Undefined variable $banner
+[Method: GET, Route: admin/partner]
+in APPPATH\Views\admin\partner\index.php on line 37.
+ 1 APPPATH\Views\admin\partner\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $banner', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/partner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/partner/index', [...])
+ 6 APPPATH\Controllers\Admin\Partner.php(15): App\Controllers\BaseController->adminFrontendLoad('partner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:13:23 --> ErrorException: Undefined variable $banner
+[Method: GET, Route: admin/partner]
+in APPPATH\Views\admin\partner\index.php on line 37.
+ 1 APPPATH\Views\admin\partner\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $banner', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/partner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/partner/index', [...])
+ 6 APPPATH\Controllers\Admin\Partner.php(15): App\Controllers\BaseController->adminFrontendLoad('partner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:13:25 --> ErrorException: Undefined variable $banner
+[Method: GET, Route: admin/partner]
+in APPPATH\Views\admin\partner\index.php on line 37.
+ 1 APPPATH\Views\admin\partner\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $banner', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/partner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/partner/index', [...])
+ 6 APPPATH\Controllers\Admin\Partner.php(15): App\Controllers\BaseController->adminFrontendLoad('partner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:13:46 --> ErrorException: Undefined variable $banner
+[Method: GET, Route: admin/partner]
+in APPPATH\Views\admin\partner\index.php on line 37.
+ 1 APPPATH\Views\admin\partner\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $banner', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/partner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/partner/index', [...])
+ 6 APPPATH\Controllers\Admin\Partner.php(15): App\Controllers\BaseController->adminFrontendLoad('partner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:15:20 --> ErrorException: Undefined variable $banner
+[Method: GET, Route: admin/partner]
+in APPPATH\Views\admin\partner\index.php on line 37.
+ 1 APPPATH\Views\admin\partner\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $banner', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\partner\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/partner/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/partner/index', [...])
+ 6 APPPATH\Controllers\Admin\Partner.php(15): App\Controllers\BaseController->adminFrontendLoad('partner/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:22:55 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: admin/partner]
+in APPPATH\Controllers\Admin\Partner.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Partner.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Partner')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Partner')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Partner', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:23:01 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: admin/partner]
+in APPPATH\Controllers\Admin\Partner.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Partner.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Partner')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Partner')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Partner', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:23:01 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: admin/partner]
+in APPPATH\Controllers\Admin\Partner.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Partner.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Partner')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Partner')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Partner', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:23:01 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: admin/partner]
+in APPPATH\Controllers\Admin\Partner.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Partner.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Partner')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Partner')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Partner', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:23:01 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: admin/partner]
+in APPPATH\Controllers\Admin\Partner.php on line 41.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Partner.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Partner')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Partner')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Partner', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:25:14 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Partner::update(), 0 passed in F:\xampp\htdocs\exam-advisory\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: admin/partner/update]
+in APPPATH\Controllers\Admin\Partner.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:25:15 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Partner::update(), 0 passed in F:\xampp\htdocs\exam-advisory\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: admin/partner/update]
+in APPPATH\Controllers\Admin\Partner.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:25:17 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Partner::update(), 0 passed in F:\xampp\htdocs\exam-advisory\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: admin/partner/update]
+in APPPATH\Controllers\Admin\Partner.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:25:49 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Partner::update(), 0 passed in F:\xampp\htdocs\exam-advisory\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: admin/partner/update]
+in APPPATH\Controllers\Admin\Partner.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:25:50 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Partner::update(), 0 passed in F:\xampp\htdocs\exam-advisory\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: admin/partner/update]
+in APPPATH\Controllers\Admin\Partner.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:25:52 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\Partner::update(), 0 passed in F:\xampp\htdocs\exam-advisory\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: admin/partner/update]
+in APPPATH\Controllers\Admin\Partner.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:31:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/partner/updateStatus/1/0]
+in APPPATH\Controllers\Admin\Partner.php on line 56.
+ 1 APPPATH\Controllers\Admin\Partner.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Partner.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->updateStatus(null, '0')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:31:20 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/partner/updateStatus/1/0]
+in APPPATH\Controllers\Admin\Partner.php on line 56.
+ 1 APPPATH\Controllers\Admin\Partner.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Controllers\\Admin\\Partner.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Partner->updateStatus(null, '0')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Partner))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:42:28 --> Error: Call to a member function get() on null
+[Method: GET, Route: admin/why-choose-us]
+in APPPATH\Controllers\Admin\Whychooseus.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:42:43 --> Error: Call to a member function get() on null
+[Method: GET, Route: admin/why-choose-us]
+in APPPATH\Controllers\Admin\Whychooseus.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:42:59 --> Error: Call to a member function get() on null
+[Method: GET, Route: admin/why-choose-us]
+in APPPATH\Controllers\Admin\Whychooseus.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:48:49 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:49:46 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:49:47 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:49:47 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:49:47 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:50:07 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:50:20 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:50:27 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:50:38 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:51:09 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:51:11 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:52:07 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:52:43 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:52:47 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:53:01 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:53:01 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:53:01 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:53:01 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:53:21 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 48.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 48)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:54:24 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 46.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:54:30 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 31.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:54:31 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 31.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:54:31 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 31.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:54:31 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 31.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:54:31 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 31.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:54:31 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 31.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 05:54:31 --> ErrorException: Undefined array key "sub_heading"
+[Method: GET, Route: admin/whychooseus/edit-whychooseus/1]
+in APPPATH\Views\admin\whychooseus\edit.php on line 31.
+ 1 APPPATH\Views\admin\whychooseus\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_heading"', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\whychooseus\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/whychooseus/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/whychooseus/edit', [...])
+ 6 APPPATH\Controllers\Admin\Whychooseus.php(19): App\Controllers\BaseController->adminFrontendLoad('whychooseus/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Whychooseus->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Whychooseus))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 06:58:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [...])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 06:58:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [...])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 06:59:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [...])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 06:59:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [...])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 06:59:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [...])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:00:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [...])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:00:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:00:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:00:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:00:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:00:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:00:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:00:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:00:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/admin/team/index.php"
+[Method: GET, Route: admin/team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin/team/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/admin/team/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/admin/team/index', [])
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(16): App\Controllers\BaseController->adminFrontendLoad('admin/team/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:07:43 --> CodeIgniter\Database\Exceptions\DatabaseException: You must use the "set" method to update an entry.
+[Method: GET, Route: admin/team/update]
+in SYSTEMPATH\Database\BaseBuilder.php on line 2562.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\Admin\AbouteamModel.php(28): CodeIgniter\Database\BaseBuilder->update(null)
+ 3 APPPATH\Controllers\Admin\AboutTeam.php(43): App\Models\Admin\AbouteamModel->updateTeam(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:09:17 --> TypeError: CodeIgniter\Database\BaseBuilder::setBind(): Argument #1 ($key) must be of type string, int given, called in F:\xampp\htdocs\exam-advisory\system\Database\BaseBuilder.php on line 1562
+[Method: POST, Route: admin/team/update]
+in SYSTEMPATH\Database\BaseBuilder.php on line 3499.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1562): CodeIgniter\Database\BaseBuilder->setBind(1, '', true)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2479): CodeIgniter\Database\BaseBuilder->set([...])
+ 3 APPPATH\Models\Admin\AbouteamModel.php(28): CodeIgniter\Database\BaseBuilder->update('1')
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(43): App\Models\Admin\AbouteamModel->updateTeam('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->update()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:09:25 --> TypeError: CodeIgniter\Database\BaseBuilder::setBind(): Argument #1 ($key) must be of type string, int given, called in F:\xampp\htdocs\exam-advisory\system\Database\BaseBuilder.php on line 1562
+[Method: POST, Route: admin/team/update]
+in SYSTEMPATH\Database\BaseBuilder.php on line 3499.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1562): CodeIgniter\Database\BaseBuilder->setBind(1, '', true)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2479): CodeIgniter\Database\BaseBuilder->set([...])
+ 3 APPPATH\Models\Admin\AbouteamModel.php(28): CodeIgniter\Database\BaseBuilder->update('1')
+ 4 APPPATH\Controllers\Admin\AboutTeam.php(43): App\Models\Admin\AbouteamModel->updateTeam('1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\AboutTeam->update()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\AboutTeam))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:32:18 --> BadMethodCallException: Call to undefined method App\Models\Admin\PartnerModel::faqList
+[Method: GET, Route: admin/faq]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\Faq.php(15): CodeIgniter\Model->__call('faqList', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Faq->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Faq))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:32:47 --> Error: Class "App\Models\Admin\FaqModel" not found
+[Method: GET, Route: admin/faq]
+in APPPATH\Controllers\Admin\Faq.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Faq->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:32:48 --> Error: Class "App\Models\Admin\FaqModel" not found
+[Method: GET, Route: admin/faq]
+in APPPATH\Controllers\Admin\Faq.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Faq->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:33:06 --> Error: Class "App\Models\Admin\FaqModel" not found
+[Method: GET, Route: admin/faq]
+in APPPATH\Controllers\Admin\Faq.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Faq->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:47:15 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "faq" cannot be found.
+[Method: GET, Route: admin/Faq/updateFaqStatus/1/0]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('faq')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin\Faq.php(70): redirect('faq')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Faq->updateFaqStatus('1', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Faq))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 07:47:22 --> CodeIgniter\HTTP\Exceptions\HTTPException: The route for "faq" cannot be found.
+[Method: GET, Route: admin/Faq/updateFaqStatus/1/1]
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 64.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('faq')
+ 2 SYSTEMPATH\Common.php(853): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Admin\Faq.php(70): redirect('faq')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Faq->updateFaqStatus('1', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Faq))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-03 09:01:23 --> mysqli_sql_exception: Table 'exam-advisory.service' doesn't exist in F:\xampp\htdocs\exam-advisory\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 F:\xampp\htdocs\exam-advisory\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 F:\xampp\htdocs\exam-advisory\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 F:\xampp\htdocs\exam-advisory\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 F:\xampp\htdocs\exam-advisory\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp\htdocs\exam-advisory\app\Models\Admin\ServiceModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp\htdocs\exam-advisory\app\Controllers\Admin\service.php(15): App\Models\Admin\ServiceModel->serviceList()
+#6 F:\xampp\htdocs\exam-advisory\system\CodeIgniter.php(933): App\Controllers\Admin\service->index()
+#7 F:\xampp\htdocs\exam-advisory\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\service))
+#8 F:\xampp\htdocs\exam-advisory\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\xampp\htdocs\exam-advisory\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 F:\xampp\htdocs\exam-advisory\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 F:\xampp\htdocs\exam-advisory\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-07-03 09:01:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'exam-advisory.service' doesn't exist
+[Method: GET, Route: admin/service]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `service`', [], false)
+ 2 APPPATH\Models\Admin\ServiceModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\service.php(15): App\Models\Admin\ServiceModel->serviceList()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\service->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\service))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 09:01:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'exam-advisory.service' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `service`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `service`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `service`', [], false)
+ 4 APPPATH\Models\Admin\ServiceModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin\service.php(15): App\Models\Admin\ServiceModel->serviceList()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\service->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\service))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 09:01:23 --> [Caused by] mysqli_sql_exception: Table 'exam-advisory.service' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `service`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `service`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `service`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `service`', [], false)
+ 5 APPPATH\Models\Admin\ServiceModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\service.php(15): App\Models\Admin\ServiceModel->serviceList()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\service->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\service))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 10:27:43 --> ErrorException: Undefined variable $service
+[Method: GET, Route: admin/blog/edit-blog/1]
+in APPPATH\Views\admin\blog\edit.php on line 17.
+ 1 APPPATH\Views\admin\blog\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $service', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\blog\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\blog\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/blog/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/blog/edit', [...])
+ 6 APPPATH\Controllers\Admin\Blog.php(55): App\Controllers\BaseController->adminFrontendLoad('blog/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Blog->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 10:28:09 --> ErrorException: Undefined variable $service
+[Method: GET, Route: admin/blog/edit-blog/1]
+in APPPATH\Views\admin\blog\edit.php on line 17.
+ 1 APPPATH\Views\admin\blog\edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $service', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\blog\\edit.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\blog\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/blog/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/blog/edit', [...])
+ 6 APPPATH\Controllers\Admin\Blog.php(55): App\Controllers\BaseController->adminFrontendLoad('blog/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Blog->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 11:32:21 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/newsletter]
+in APPPATH\Views\admin\newsletter\index.php on line 39.
+ 1 APPPATH\Views\admin\newsletter\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/newsletter/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/newsletter/index', [...])
+ 6 APPPATH\Controllers\Admin\Newsletter.php(16): App\Controllers\BaseController->adminFrontendLoad('newsletter/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Newsletter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Newsletter))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 11:33:03 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/newsletter]
+in APPPATH\Views\admin\newsletter\index.php on line 39.
+ 1 APPPATH\Views\admin\newsletter\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/newsletter/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/newsletter/index', [...])
+ 6 APPPATH\Controllers\Admin\Newsletter.php(16): App\Controllers\BaseController->adminFrontendLoad('newsletter/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Newsletter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Newsletter))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 11:33:04 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/newsletter]
+in APPPATH\Views\admin\newsletter\index.php on line 39.
+ 1 APPPATH\Views\admin\newsletter\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/newsletter/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/newsletter/index', [...])
+ 6 APPPATH\Controllers\Admin\Newsletter.php(16): App\Controllers\BaseController->adminFrontendLoad('newsletter/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Newsletter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Newsletter))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 11:33:09 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/newsletter]
+in APPPATH\Views\admin\newsletter\index.php on line 39.
+ 1 APPPATH\Views\admin\newsletter\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/newsletter/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/newsletter/index', [...])
+ 6 APPPATH\Controllers\Admin\Newsletter.php(16): App\Controllers\BaseController->adminFrontendLoad('newsletter/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Newsletter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Newsletter))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 11:33:45 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/newsletter]
+in APPPATH\Views\admin\newsletter\index.php on line 39.
+ 1 APPPATH\Views\admin\newsletter\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/newsletter/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/newsletter/index', [...])
+ 6 APPPATH\Controllers\Admin\Newsletter.php(16): App\Controllers\BaseController->adminFrontendLoad('newsletter/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Newsletter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Newsletter))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 11:33:45 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/newsletter]
+in APPPATH\Views\admin\newsletter\index.php on line 39.
+ 1 APPPATH\Views\admin\newsletter\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/newsletter/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/newsletter/index', [...])
+ 6 APPPATH\Controllers\Admin\Newsletter.php(16): App\Controllers\BaseController->adminFrontendLoad('newsletter/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Newsletter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Newsletter))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 11:33:45 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/newsletter]
+in APPPATH\Views\admin\newsletter\index.php on line 39.
+ 1 APPPATH\Views\admin\newsletter\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/newsletter/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/newsletter/index', [...])
+ 6 APPPATH\Controllers\Admin\Newsletter.php(16): App\Controllers\BaseController->adminFrontendLoad('newsletter/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Newsletter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Newsletter))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 11:33:45 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/newsletter]
+in APPPATH\Views\admin\newsletter\index.php on line 39.
+ 1 APPPATH\Views\admin\newsletter\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/newsletter/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/newsletter/index', [...])
+ 6 APPPATH\Controllers\Admin\Newsletter.php(16): App\Controllers\BaseController->adminFrontendLoad('newsletter/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Newsletter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Newsletter))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 11:33:49 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/newsletter]
+in APPPATH\Views\admin\newsletter\index.php on line 39.
+ 1 APPPATH\Views\admin\newsletter\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/newsletter/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/newsletter/index', [...])
+ 6 APPPATH\Controllers\Admin\Newsletter.php(16): App\Controllers\BaseController->adminFrontendLoad('newsletter/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Newsletter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Newsletter))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 11:51:21 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/newsletter]
+in APPPATH\Views\admin\newsletter\index.php on line 39.
+ 1 APPPATH\Views\admin\newsletter\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\newsletter\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/newsletter/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/newsletter/index', [...])
+ 6 APPPATH\Controllers\Admin\Newsletter.php(16): App\Controllers\BaseController->adminFrontendLoad('newsletter/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Newsletter->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Newsletter))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 12:02:38 --> ErrorException: Undefined variable $newsletter
+[Method: GET, Route: admin/blog/edit-blog/1]
+in APPPATH\Views\admin\blog\edit.php on line 23.
+ 1 APPPATH\Views\admin\blog\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newsletter', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\blog\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\blog\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/blog/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/blog/edit', [...])
+ 6 APPPATH\Controllers\Admin\Blog.php(56): App\Controllers\BaseController->adminFrontendLoad('blog/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Blog->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 12:02:44 --> ErrorException: Undefined variable $newsletter
+[Method: GET, Route: admin/blog/edit-blog/1]
+in APPPATH\Views\admin\blog\edit.php on line 23.
+ 1 APPPATH\Views\admin\blog\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newsletter', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\blog\\edit.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\blog\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/blog/edit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/blog/edit', [...])
+ 6 APPPATH\Controllers\Admin\Blog.php(56): App\Controllers\BaseController->adminFrontendLoad('blog/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Blog->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-03 12:50:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/faq/edit-faq/4]
+in APPPATH\Views\admin\faq\edit-faq.php on line 16.
+ 1 APPPATH\Views\admin\faq\edit-faq.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\faq\\edit-faq.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\xampp\\htdocs\\exam-advisory\\app\\Views\\admin\\faq\\edit-faq.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/faq/edit-faq', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/faq/edit-faq', [...])
+ 6 APPPATH\Controllers\Admin\Faq.php(46): App\Controllers\BaseController->adminFrontendLoad('faq/edit-faq', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Faq->editFaq('4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Faq))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,110 @@
+CRITICAL - 2024-12-07 11:57:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-07 11:59:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-07 12:01:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-07 12:02:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-07 12:04:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-07 12:07:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-07 12:10:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-07 12:34:35 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-07 12:35:35 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-07 12:37:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-07 12:45:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 669.
+ 1 APPPATH/Controllers/Home.php(669): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 669)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

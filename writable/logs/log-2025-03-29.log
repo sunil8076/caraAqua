@@ -1,0 +1,42 @@
+CRITICAL - 2025-03-29 06:25:31 --> ErrorException: Undefined variable $about
+[Method: GET, Route: product-list]
+in APPPATH\Views\home\product-list.php on line 24.
+ 1 APPPATH\Views\home\product-list.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $about', 'I:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\product-list.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('I:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\product-list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-list', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-list', [...])
+ 6 APPPATH\Controllers\Home.php(246): App\Controllers\BaseController->frontendLoad('product-list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-29 07:41:45 --> Error: Call to undefined function base_ulr()
+[Method: GET, Route: product-list]
+in APPPATH\Views\home\product-list.php on line 49.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-list', [], true)
+ 4 APPPATH\Controllers\BaseController.php(73): view('home/product-list', [...])
+ 5 APPPATH\Controllers\Home.php(246): App\Controllers\BaseController->frontendLoad('product-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-29 07:44:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/product-new.php"
+[Method: GET, Route: product-new]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/product-new.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-new', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/product-new', [...])
+ 4 APPPATH\Controllers\Home.php(253): App\Controllers\BaseController->frontendLoad('product-new', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productNew()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

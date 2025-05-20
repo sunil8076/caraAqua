@@ -1,0 +1,350 @@
+CRITICAL - 2025-03-31 06:54:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/product.php"
+[Method: GET, Route: product]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/product.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/product', [...])
+ 4 APPPATH\Controllers\Home.php(247): App\Controllers\BaseController->frontendLoad('product', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->product()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 07:19:15 --> ErrorException: Undefined array key "dimension"
+[Method: GET, Route: admin/product/edit-product/1]
+in APPPATH\Views\admin\product\edit-product.php on line 141.
+ 1 APPPATH\Views\admin\product\edit-product.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dimension"', 'E:\\xampp New\\htdocs\\kara_new\\app\\Views\\admin\\product\\edit-product.php', 141)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\admin\\product\\edit-product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product/edit-product', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/product/edit-product', [...])
+ 6 APPPATH\Controllers\Admin\Product.php(76): App\Controllers\BaseController->adminFrontendLoad('product/edit-product', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->editProduct('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 07:37:48 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::productDetails(), 0 passed in E:\xampp New\htdocs\kara_new\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Controllers\Home.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 07:38:06 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::productDetails(), 0 passed in E:\xampp New\htdocs\kara_new\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Controllers\Home.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 07:38:07 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::productDetails(), 0 passed in E:\xampp New\htdocs\kara_new\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Controllers\Home.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 07:38:07 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::productDetails(), 0 passed in E:\xampp New\htdocs\kara_new\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Controllers\Home.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 07:38:07 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::productDetails(), 0 passed in E:\xampp New\htdocs\kara_new\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Controllers\Home.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 07:51:27 --> ErrorException: Undefined array key "de"
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Views\home\product-details.php on line 180.
+ 1 APPPATH\Views\home\product-details.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "de"', 'E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php', 180)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 07:56:44 --> ParseError: syntax error, unexpected token "/"
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Views\home\product-details.php on line 321.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 4 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:32:50 --> Error: Call to undefined function productList()
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Views\home\common\header.php on line 121.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 4 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 5 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:01 --> Error: Call to undefined function productList()
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Views\home\product-details.php on line 312.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 4 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 5 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:03 --> Error: Call to undefined function productList()
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Views\home\product-details.php on line 312.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 4 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 5 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:03 --> Error: Call to undefined function productList()
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Views\home\product-details.php on line 312.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 4 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 5 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:03 --> Error: Call to undefined function productList()
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Views\home\product-details.php on line 312.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 4 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 5 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:03 --> Error: Call to undefined function productList()
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Views\home\product-details.php on line 312.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 4 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 5 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:46 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 312 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(312): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:50 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 312 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(312): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:50 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 312 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(312): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:51 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 312 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(312): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:51 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 312 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(312): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:54 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 312 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(312): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:55 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 312 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(312): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:55 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 312 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(312): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:55 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 312 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(312): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:33:55 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 312 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(312): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-31 12:35:38 --> ArgumentCountError: Too few arguments to function productList(), 0 passed in E:\xampp New\htdocs\kara_new\app\Views\home\product-details.php on line 263 and exactly 1 expected
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH\Helpers\common_helper.php on line 14.
+ 1 APPPATH\Views\home\product-details.php(263): productList()
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(239): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->productDetails('domestic-water-softener')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

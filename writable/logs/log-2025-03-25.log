@@ -1,0 +1,1246 @@
+CRITICAL - 2025-03-25 05:13:36 --> ErrorException: Undefined variable $clientList
+[Method: GET, Route: admin/product]
+in APPPATH\Views\admin\product\index.php on line 66.
+ 1 APPPATH\Views\admin\product\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\product\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/product/index', [...])
+ 6 APPPATH\Controllers\Admin\Product.php(13): App\Controllers\BaseController->adminFrontendLoad('product/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:13:43 --> ErrorException: Undefined variable $clientList
+[Method: GET, Route: admin/product]
+in APPPATH\Views\admin\product\index.php on line 66.
+ 1 APPPATH\Views\admin\product\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\product\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/product/index', [...])
+ 6 APPPATH\Controllers\Admin\Product.php(13): App\Controllers\BaseController->adminFrontendLoad('product/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Product->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:21:09 --> ErrorException: Undefined variable $productList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:21:11 --> ErrorException: Undefined variable $productList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:21:56 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:21:57 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:15 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:16 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:16 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:16 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:16 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:16 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:17 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:17 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:17 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:18 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:18 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:49 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:50 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:50 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:50 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:50 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:51 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:51 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:51 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:51 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:22:51 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:23:00 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:23:15 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:23:16 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:23:16 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:23:20 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:23:21 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:23:21 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 05:23:21 --> ErrorException: Undefined variable $testimonialList
+[Method: GET, Route: admin/testimonial]
+in APPPATH\Views\admin\testimonial\index.php on line 29.
+ 1 APPPATH\Views\admin\testimonial\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $testimonialList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/index', [])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(13): App\Controllers\BaseController->adminFrontendLoad('testimonial/index')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:00:47 --> ErrorException: Undefined variable $product
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 19.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:06:14 --> ErrorException: Undefined variable $product
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 19.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:07:49 --> ErrorException: Undefined variable $product
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 19.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:07:50 --> ErrorException: Undefined variable $product
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 19.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:07:50 --> ErrorException: Undefined variable $product
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 19.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:07:51 --> ErrorException: Undefined variable $product
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 19.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:07:51 --> ErrorException: Undefined variable $product
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 19.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:08:08 --> ErrorException: Undefined array key "thumb_image"
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 38.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thumb_image"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:08:09 --> ErrorException: Undefined array key "thumb_image"
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 38.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thumb_image"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:08:09 --> ErrorException: Undefined array key "thumb_image"
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 38.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thumb_image"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:08:10 --> ErrorException: Undefined array key "thumb_image"
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 38.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thumb_image"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:08:10 --> ErrorException: Undefined array key "thumb_image"
+[Method: GET, Route: admin/testimonial/edit-testimonial/1]
+in APPPATH\Views\admin\testimonial\edit-testimonial.php on line 38.
+ 1 APPPATH\Views\admin\testimonial\edit-testimonial.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thumb_image"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\testimonial\\edit-testimonial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/testimonial/edit-testimonial', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/testimonial/edit-testimonial', [...])
+ 6 APPPATH\Controllers\Admin\Testimonial.php(18): App\Controllers\BaseController->adminFrontendLoad('testimonial/edit-testimonial', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->editTestimonial('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 06:26:19 --> Error: Undefined constant "App\Controllers\Admin\redirect"
+[Method: GET, Route: admin/testimonial/updateStatus/1/0]
+in APPPATH\Controllers\Admin\Testimonial.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Testimonial->updateTestimonialStatus('1', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Testimonial))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 07:19:51 --> ErrorException: Undefined array key "number"
+[Method: GET, Route: admin/enquiry-list]
+in APPPATH\Views\admin\enquiry.php on line 42.
+ 1 APPPATH\Views\admin\enquiry.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\enquiry.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\enquiry.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/enquiry', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/enquiry', [...])
+ 6 APPPATH\Controllers\Admin\Enquiry.php(15): App\Controllers\BaseController->adminFrontendLoad('enquiry', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 07:22:28 --> ErrorException: Undefined array key "number"
+[Method: GET, Route: admin/enquiry-list]
+in APPPATH\Views\admin\enquiry.php on line 42.
+ 1 APPPATH\Views\admin\enquiry.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\enquiry.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\enquiry.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/enquiry', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/enquiry', [...])
+ 6 APPPATH\Controllers\Admin\Enquiry.php(15): App\Controllers\BaseController->adminFrontendLoad('enquiry', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 07:41:36 --> ParseError: syntax error, unexpected identifier "a", expecting "function" or "const"
+[Method: GET, Route: admin/enquiry-list]
+in APPPATH\Controllers\Admin\Enquiry.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Enquiry.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Enquiry')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Enquiry')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Enquiry', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 07:41:38 --> ParseError: syntax error, unexpected identifier "a", expecting "function" or "const"
+[Method: GET, Route: admin/enquiry-list]
+in APPPATH\Controllers\Admin\Enquiry.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Enquiry.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Enquiry')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Enquiry')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Enquiry', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 07:41:38 --> ParseError: syntax error, unexpected identifier "a", expecting "function" or "const"
+[Method: GET, Route: admin/enquiry-list]
+in APPPATH\Controllers\Admin\Enquiry.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Enquiry.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Enquiry')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Enquiry')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Enquiry', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 07:41:38 --> ParseError: syntax error, unexpected identifier "a", expecting "function" or "const"
+[Method: GET, Route: admin/enquiry-list]
+in APPPATH\Controllers\Admin\Enquiry.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Enquiry.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Enquiry')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Enquiry')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Enquiry', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 07:41:38 --> ParseError: syntax error, unexpected identifier "a", expecting "function" or "const"
+[Method: GET, Route: admin/enquiry-list]
+in APPPATH\Controllers\Admin\Enquiry.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Enquiry.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Enquiry')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Enquiry')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Enquiry', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-25 09:00:51 --> mysqli_sql_exception: Unknown column 'product_id' in 'field list' in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `en...', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry(Array)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-25 09:00:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+[Method: POST, Route: save-product-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 2 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:00:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Mohit kumar\', \'2\', \'mohit1234@gmail.com\', \'8512369745\', \'mohit\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Mohit kumar\', \'2\', \'mohit1234@gmail.com\', \'8512369745\', \'mohit\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 4 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:00:51 --> [Caused by] mysqli_sql_exception: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Mohit kumar\', \'2\', \'mohit1234@gmail.com\', \'8512369745\', \'mohit\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Mohit kumar\', \'2\', \'mohit1234@gmail.com\', \'8512369745\', \'mohit\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Mohit kumar\', \'2\', \'mohit1234@gmail.com\', \'8512369745\', \'mohit\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 5 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-25 09:01:02 --> mysqli_sql_exception: Unknown column 'product_id' in 'field list' in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `en...', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry(Array)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-25 09:01:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+[Method: POST, Route: save-product-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 2 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:01:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Mohit kumar\', \'2\', \'mohit1234@gmail.com\', \'8512369745\', \'mohit\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Mohit kumar\', \'2\', \'mohit1234@gmail.com\', \'8512369745\', \'mohit\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 4 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:01:02 --> [Caused by] mysqli_sql_exception: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Mohit kumar\', \'2\', \'mohit1234@gmail.com\', \'8512369745\', \'mohit\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Mohit kumar\', \'2\', \'mohit1234@gmail.com\', \'8512369745\', \'mohit\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Mohit kumar\', \'2\', \'mohit1234@gmail.com\', \'8512369745\', \'mohit\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 5 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-25 09:02:13 --> mysqli_sql_exception: Unknown column 'product_id' in 'field list' in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `en...', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry(Array)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-25 09:02:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+[Method: POST, Route: save-product-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 2 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:02:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'rajivranjank940@gmail.com\', \'9117164550\', \'dfas\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'rajivranjank940@gmail.com\', \'9117164550\', \'dfas\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 4 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:02:13 --> [Caused by] mysqli_sql_exception: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'rajivranjank940@gmail.com\', \'9117164550\', \'dfas\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'rajivranjank940@gmail.com\', \'9117164550\', \'dfas\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'rajivranjank940@gmail.com\', \'9117164550\', \'dfas\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 5 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-25 09:02:16 --> mysqli_sql_exception: Unknown column 'product_id' in 'field list' in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `en...', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry(Array)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-25 09:02:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+[Method: POST, Route: save-product-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 2 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:02:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'rajivranjank940@gmail.com\', \'9117164550\', \'dfas\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'rajivranjank940@gmail.com\', \'9117164550\', \'dfas\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 4 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:02:16 --> [Caused by] mysqli_sql_exception: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'rajivranjank940@gmail.com\', \'9117164550\', \'dfas\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'rajivranjank940@gmail.com\', \'9117164550\', \'dfas\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'rajivranjank940@gmail.com\', \'9117164550\', \'dfas\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 5 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-25 09:02:38 --> mysqli_sql_exception: Unknown column 'product_id' in 'field list' in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `en...', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry(Array)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-25 09:02:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+[Method: POST, Route: save-product-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 2 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:02:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'mohit1234@gmail.com\', \'9117164550\', \'adfs\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'mohit1234@gmail.com\', \'9117164550\', \'adfs\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 4 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:02:38 --> [Caused by] mysqli_sql_exception: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'mohit1234@gmail.com\', \'9117164550\', \'adfs\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'mohit1234@gmail.com\', \'9117164550\', \'adfs\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'mohit1234@gmail.com\', \'9117164550\', \'adfs\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 5 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-25 09:02:40 --> mysqli_sql_exception: Unknown column 'product_id' in 'field list' in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `en...', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry(Array)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-25 09:02:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+[Method: POST, Route: save-product-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 2 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:02:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'mohit1234@gmail.com\', \'9117164550\', \'adfs\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'mohit1234@gmail.com\', \'9117164550\', \'adfs\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 4 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:02:40 --> [Caused by] mysqli_sql_exception: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'mohit1234@gmail.com\', \'9117164550\', \'adfs\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'mohit1234@gmail.com\', \'9117164550\', \'adfs\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'1\', \'Rajiv Ranjan Yadav\', \'2\', \'mohit1234@gmail.com\', \'9117164550\', \'adfs\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 5 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-25 09:04:35 --> mysqli_sql_exception: Unknown column 'product_id' in 'field list' in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `en...', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry(Array)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-25 09:04:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+[Method: POST, Route: save-product-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 2 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:04:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'4\', \'Amit Gupta\', \'2\', \'amit123@gmail.com\', \'7025369528\', \'fdsa\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'4\', \'Amit Gupta\', \'2\', \'amit123@gmail.com\', \'7025369528\', \'fdsa\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 4 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:04:35 --> [Caused by] mysqli_sql_exception: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'4\', \'Amit Gupta\', \'2\', \'amit123@gmail.com\', \'7025369528\', \'fdsa\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'4\', \'Amit Gupta\', \'2\', \'amit123@gmail.com\', \'7025369528\', \'fdsa\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'4\', \'Amit Gupta\', \'2\', \'amit123@gmail.com\', \'7025369528\', \'fdsa\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 5 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-25 09:04:53 --> mysqli_sql_exception: Unknown column 'product_id' in 'field list' in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `en...', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry(Array)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-25 09:04:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+[Method: POST, Route: save-product-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 2 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:04:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'4\', \'Amit Gupta\', \'2\', \'mohit1234@gmail.com\', \'7025369528\', \'dasfad\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'4\', \'Amit Gupta\', \'2\', \'mohit1234@gmail.com\', \'7025369528\', \'dasfad\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 4 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:04:53 --> [Caused by] mysqli_sql_exception: Unknown column 'product_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'4\', \'Amit Gupta\', \'2\', \'mohit1234@gmail.com\', \'7025369528\', \'dasfad\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'4\', \'Amit Gupta\', \'2\', \'mohit1234@gmail.com\', \'7025369528\', \'dasfad\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (\'4\', \'Amit Gupta\', \'2\', \'mohit1234@gmail.com\', \'7025369528\', \'dasfad\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry` (`product_id`, `name`, `type`, `email`, `phone`, `message`) VALUES (:product_id:, :name:, :type:, :email:, :phone:, :message:)', [...], false)
+ 5 APPPATH\Models\HomeModel.php(35): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Home.php(56): App\Models\HomeModel->saveProductEnquiry([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->saveProductEnquiry()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-25 09:52:47 --> ArgumentCountError: Too few arguments to function App\Models\Admin\AdminModel::enquiryList(), 0 passed in E:\xampp New\htdocs\kara\app\Controllers\Admin\Enquiry.php on line 14 and exactly 1 expected
+[Method: GET, Route: admin/enquiry-list]
+in APPPATH\Models\Admin\AdminModel.php on line 20.
+ 1 APPPATH\Controllers\Admin\Enquiry.php(14): App\Models\Admin\AdminModel->enquiryList()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

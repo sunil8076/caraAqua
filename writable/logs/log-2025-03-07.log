@@ -1,0 +1,91 @@
+CRITICAL - 2025-03-07 06:25:54 --> BadMethodCallException: Call to undefined method App\Models\Admin\VendorPoliciesModel::vendorPoliciesList
+[Method: GET, Route: admin/vendor-policies]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\VendorPolicies.php(16): CodeIgniter\Model->__call('vendorPoliciesList', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\VendorPolicies->vendorPoliciesList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\VendorPolicies))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-07 06:27:31 --> BadMethodCallException: Call to undefined method App\Models\Admin\VendorPoliciesModel::vendorPoliciesList
+[Method: GET, Route: admin/vendor-policies]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\VendorPolicies.php(16): CodeIgniter\Model->__call('vendorPoliciesList', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\VendorPolicies->vendorPoliciesList()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\VendorPolicies))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-07 06:28:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/vendorpolicies/create-vendorpolicies.php"
+[Method: GET, Route: admin/vendor-policies/create-vendorpolicies]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/vendorpolicies/create-vendorpolicies.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/vendorpolicies/create-vendorpolicies', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/vendorpolicies/create-vendorpolicies', [...])
+ 4 APPPATH\Controllers\Admin\VendorPolicies.php(22): App\Controllers\BaseController->adminFrontendLoad('vendorpolicies/create-vendorpolicies', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\VendorPolicies->createVendorPolicies()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\VendorPolicies))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-07 06:30:33 --> ErrorException: Undefined variable $vendorPolicies
+[Method: GET, Route: admin/vendor-policies]
+in APPPATH\Views\admin\vendorpolicies\index.php on line 32.
+ 1 APPPATH\Views\admin\vendorpolicies\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorPolicies', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\vendorpolicies\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\vendorpolicies\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/vendorpolicies/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/vendorpolicies/index', [...])
+ 6 APPPATH\Controllers\Admin\VendorPolicies.php(17): App\Controllers\BaseController->adminFrontendLoad('vendorpolicies/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\VendorPolicies->vendorPoliciesList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\VendorPolicies))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-07 06:30:43 --> ErrorException: Undefined variable $vendorPolicies
+[Method: GET, Route: admin/vendor-policies]
+in APPPATH\Views\admin\vendorpolicies\index.php on line 32.
+ 1 APPPATH\Views\admin\vendorpolicies\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendorPolicies', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\vendorpolicies\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\vendorpolicies\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/vendorpolicies/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/vendorpolicies/index', [...])
+ 6 APPPATH\Controllers\Admin\VendorPolicies.php(17): App\Controllers\BaseController->adminFrontendLoad('vendorpolicies/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\VendorPolicies->vendorPoliciesList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\VendorPolicies))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-07 06:31:30 --> ErrorException: Undefined variable $ourSpecialitiesData
+[Method: GET, Route: admin/vendor-policies/edit-vendorpolicies/1]
+in APPPATH\Views\admin\vendorpolicies\edit-vendorpolicies.php on line 16.
+ 1 APPPATH\Views\admin\vendorpolicies\edit-vendorpolicies.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ourSpecialitiesData', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\vendorpolicies\\edit-vendorpolicies.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\vendorpolicies\\edit-vendorpolicies.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/vendorpolicies/edit-vendorpolicies', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/vendorpolicies/edit-vendorpolicies', [...])
+ 6 APPPATH\Controllers\Admin\VendorPolicies.php(47): App\Controllers\BaseController->adminFrontendLoad('vendorpolicies/edit-vendorpolicies', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\VendorPolicies->editVendorPolicies('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\VendorPolicies))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-07 09:40:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/includes/create-includes.php"
+[Method: GET, Route: admin/includes/create-includes]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/includes/create-includes.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/includes/create-includes', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/includes/create-includes', [...])
+ 4 APPPATH\Controllers\Admin\Includes.php(22): App\Controllers\BaseController->adminFrontendLoad('includes/create-includes', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Includes->createIncludes()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Includes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

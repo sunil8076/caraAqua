@@ -1,0 +1,74 @@
+ERROR - 2025-04-14 16:25:10 --> mysqli_sql_exception: Table 'kara.client_logo' doesn't exist in C:\xampp\htdocs\kara_new\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\kara_new\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kara_new\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kara_new\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kara_new\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kara_new\app\Models\HomeModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kara_new\app\Controllers\Home.php(77): App\Models\HomeModel->logoList()
+#6 C:\xampp\htdocs\kara_new\system\CodeIgniter.php(933): App\Controllers\Home->about()
+#7 C:\xampp\htdocs\kara_new\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\kara_new\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kara_new\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kara_new\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\kara_new\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\kara_new\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-04-14 16:25:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'kara.client_logo' doesn't exist
+[Method: GET, Route: about-us]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `client_logo`
+WHERE `status` = :status:', [...], false)
+ 2 APPPATH\Models\HomeModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(77): App\Models\HomeModel->logoList()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\kara_new\\public\\index.php')
+CRITICAL - 2025-04-14 16:25:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'kara.client_logo' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `client_logo`
+WHERE `status` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `client_logo`
+WHERE `status` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `client_logo`
+WHERE `status` = :status:', [...], false)
+ 4 APPPATH\Models\HomeModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(77): App\Models\HomeModel->logoList()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\kara_new\\public\\index.php')
+CRITICAL - 2025-04-14 16:25:10 --> [Caused by] mysqli_sql_exception: Table 'kara.client_logo' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `client_logo`
+WHERE `status` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `client_logo`
+WHERE `status` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `client_logo`
+WHERE `status` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `client_logo`
+WHERE `status` = :status:', [...], false)
+ 5 APPPATH\Models\HomeModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(77): App\Models\HomeModel->logoList()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\kara_new\\public\\index.php')

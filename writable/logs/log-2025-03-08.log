@@ -1,0 +1,46 @@
+CRITICAL - 2025-03-08 13:31:38 --> Error: Class "App\Models\Admin\HomeModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 13:31:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/home/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/home/index', [])
+ 4 APPPATH\Controllers\Home.php(14): App\Controllers\BaseController->frontendLoad('home/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 13:50:13 --> Error: Class "App\Models\Admin\EnquiryModel" not found
+[Method: POST, Route: enquiry]
+in APPPATH\Controllers\Admin\Enquiry.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Enquiry->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-08 14:02:21 --> ErrorException: Undefined variable $category
+[Method: GET, Route: admin/enquiry-list]
+in APPPATH\Views\admin\enquiry.php on line 36.
+ 1 APPPATH\Views\admin\enquiry.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\kara-aqua\\app\\Views\\admin\\enquiry.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara-aqua\\app\\Views\\admin\\enquiry.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/enquiry', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/enquiry', [...])
+ 6 APPPATH\Controllers\Admin\Enquiry.php(15): App\Controllers\BaseController->adminFrontendLoad('enquiry', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

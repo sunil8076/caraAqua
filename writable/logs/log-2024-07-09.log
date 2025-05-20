@@ -1,0 +1,1980 @@
+CRITICAL - 2024-07-09 04:38:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:38:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:38:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:38:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/bg-dotted.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'bg-dotted.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:14 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/bg-dotted.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'bg-dotted.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/bg-dotted.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'bg-dotted.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/about/2.jpg]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'about', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:39:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:40:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:40:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:41:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/ajax-loader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'ajax-loader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:42:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:42:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:42:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:42:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/bootstrap.min.css.map]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'bootstrap.min.css.map')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:44:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:44:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:44:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:44:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:44:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:51:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:51:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:51:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:51:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:51:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:51:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:52:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:52:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:52:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:52:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:52:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:53:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:55:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:56:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:56:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:56:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:56:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:56:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:56:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:56:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:56:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:57:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:57:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:57:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:57:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:57:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:57:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:57:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:57:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:58:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:58:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:58:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 04:58:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:08:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:08:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:08:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:09:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/bg-dotted.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'bg-dotted.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:09:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:09:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:10:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:10:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:10:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:10:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/bg-dotted.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'bg-dotted.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/about/2.jpg]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'about', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:13:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:14:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/ajax-loader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'ajax-loader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:15:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:15:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:15:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:15:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:16:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:16:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:17:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:37:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:37:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:37:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:37:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:37:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:37:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:37:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 05:37:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:36:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:36:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/about/2.jpg]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'about', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/about/2.jpg]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'about', '2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/img/building-bg.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'img', 'building-bg.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/preloader.gif]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'preloader.gif')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/css/assets/img/shape-6.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'css', 'assets', 'img', 'shape-6.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-09 06:37:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/home/img/favicon.png]
+in APPPATH\Controllers\Home.php on line 79.
+ 1 APPPATH\Controllers\Home.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'F:\\xampp\\htdocs\\exim-advisory\\app\\Controllers\\Home.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->service('assets', 'home', 'img', 'favicon.png')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

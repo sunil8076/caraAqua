@@ -1,0 +1,822 @@
+ERROR - 2025-03-27 04:52:38 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'kara', 3306, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(16): App\Models\HomeModel->productList(3)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Home.php(16): App\Models\HomeModel->productList(3)
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-27 04:52:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product`
+ LIMIT 3', [], false)
+ 3 APPPATH\Models\HomeModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(16): App\Models\HomeModel->productList(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-27 04:52:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'kara', 3306, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\Admin\AdminModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Admin\Login.php(49): App\Models\Admin\AdminModel->loginValify('admin@gmail.com', 'f19b8dc2029cf70...')
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\Admin\AdminModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Admin\Login.php(49): App\Models\Admin\AdminModel->loginValify('admin@gmail.com', 'f19b8dc2029cf70...')
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-27 04:52:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: admin/User/adminlogin]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:
+AND `status` = :status:', [...], false)
+ 3 APPPATH\Models\Admin\AdminModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin\Login.php(49): App\Models\Admin\AdminModel->loginValify('admin@gmail.com', 'f19b8dc2029cf707939e886e4b164681')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-27 04:53:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'kara', 3306, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\Admin\AdminModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Admin\Login.php(49): App\Models\Admin\AdminModel->loginValify('admin@gmail.com', 'f19b8dc2029cf70...')
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\Admin\AdminModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Admin\Login.php(49): App\Models\Admin\AdminModel->loginValify('admin@gmail.com', 'f19b8dc2029cf70...')
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-27 04:53:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: admin/User/adminlogin]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:
+AND `status` = :status:', [...], false)
+ 3 APPPATH\Models\Admin\AdminModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin\Login.php(49): App\Models\Admin\AdminModel->loginValify('admin@gmail.com', 'f19b8dc2029cf707939e886e4b164681')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-27 04:53:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'kara', 3306, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\Admin\AdminModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Admin\Login.php(49): App\Models\Admin\AdminModel->loginValify('admin@gmail.com', 'f19b8dc2029cf70...')
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\Admin\AdminModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Admin\Login.php(49): App\Models\Admin\AdminModel->loginValify('admin@gmail.com', 'f19b8dc2029cf70...')
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-27 04:53:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: admin/User/adminlogin]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `email` = :email:
+AND `password` = :password:
+AND `status` = :status:', [...], false)
+ 3 APPPATH\Models\Admin\AdminModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin\Login.php(49): App\Models\Admin\AdminModel->loginValify('admin@gmail.com', 'f19b8dc2029cf707939e886e4b164681')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Login->adminlogin()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 05:02:59 --> ErrorException: Undefined variable $logoList
+[Method: GET, Route: about]
+in APPPATH\Views\home\about.php on line 92.
+ 1 APPPATH\Views\home\about.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logoList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\about.php', 92)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\about.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/about', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/about', [...])
+ 6 APPPATH\Controllers\Home.php(85): App\Controllers\BaseController->frontendLoad('about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 05:03:01 --> ErrorException: Undefined variable $logoList
+[Method: GET, Route: about]
+in APPPATH\Views\home\about.php on line 92.
+ 1 APPPATH\Views\home\about.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $logoList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\about.php', 92)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\about.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/about', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/about', [...])
+ 6 APPPATH\Controllers\Home.php(85): App\Controllers\BaseController->frontendLoad('about', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-27 05:10:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'kara', 3306, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-27 05:10:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/client-logo]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `client_logo`', [], false)
+ 3 APPPATH\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-27 05:10:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'kara', 3306, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-27 05:10:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/client-logo]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `client_logo`', [], false)
+ 3 APPPATH\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-27 05:11:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'kara', 3306, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-27 05:11:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/client-logo]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `client_logo`', [], false)
+ 3 APPPATH\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-27 05:11:15 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'kara', 3306, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-27 05:11:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/client-logo]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `client_logo`', [], false)
+ 3 APPPATH\Models\Admin\ClientLogoModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin\ClientLogo.php(15): App\Models\Admin\ClientLogoModel->logoList()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ClientLogo->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ClientLogo))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 06:04:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/service-enquiry.php"
+[Method: GET, Route: admin/service-enquiry]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/service-enquiry.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/service-enquiry', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/service-enquiry', [...])
+ 4 APPPATH\Controllers\Admin\Enquiry.php(68): App\Controllers\BaseController->adminFrontendLoad('service-enquiry', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->serviceEnquiryList()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 06:04:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/service-enquiry.php"
+[Method: GET, Route: admin/service-enquiry]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/service-enquiry.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/service-enquiry', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/service-enquiry', [...])
+ 4 APPPATH\Controllers\Admin\Enquiry.php(68): App\Controllers\BaseController->adminFrontendLoad('service-enquiry', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->serviceEnquiryList()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 06:09:50 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admin/subscribe-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Enquiry.php(71): CodeIgniter\Model->__call('subscribeEnquiry', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->subscribeEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 06:09:52 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admin/subscribe-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Enquiry.php(71): CodeIgniter\Model->__call('subscribeEnquiry', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->subscribeEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 06:09:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admin/subscribe-enquiry]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin\Enquiry.php(71): CodeIgniter\Model->__call('subscribeEnquiry', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Enquiry->subscribeEnquiry()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Enquiry))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 09:57:41 --> ErrorException: Undefined array key "slug"
+[Method: POST, Route: admin/blog/save]
+in APPPATH\Controllers\Admin\Blog.php on line 59.
+ 1 APPPATH\Controllers\Admin\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Blog.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Blog->saveBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 09:57:50 --> ErrorException: Undefined array key "slug"
+[Method: POST, Route: admin/blog/save]
+in APPPATH\Controllers\Admin\Blog.php on line 59.
+ 1 APPPATH\Controllers\Admin\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Blog.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Blog->saveBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 09:59:52 --> ErrorException: Undefined array key "slug"
+[Method: POST, Route: admin/blog/save]
+in APPPATH\Controllers\Admin\Blog.php on line 59.
+ 1 APPPATH\Controllers\Admin\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Blog.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Blog->saveBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 10:00:04 --> ErrorException: Undefined array key "slug"
+[Method: POST, Route: admin/blog/save]
+in APPPATH\Controllers\Admin\Blog.php on line 59.
+ 1 APPPATH\Controllers\Admin\Blog.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Blog.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Blog->saveBlog()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 10:03:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/blog/edit-blog/2]
+in APPPATH\Views\admin\Blog\editBlog.php on line 18.
+ 1 APPPATH\Views\admin\Blog\editBlog.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\Blog\\editBlog.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\Blog\\editBlog.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Blog/editBlog', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/Blog/editBlog', [...])
+ 6 APPPATH\Controllers\Admin\Blog.php(74): App\Controllers\BaseController->adminFrontendLoad('Blog/editBlog', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Blog->editBlog('2')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 10:03:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/blog/edit-blog/2]
+in APPPATH\Views\admin\Blog\editBlog.php on line 18.
+ 1 APPPATH\Views\admin\Blog\editBlog.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\Blog\\editBlog.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\Blog\\editBlog.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Blog/editBlog', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/Blog/editBlog', [...])
+ 6 APPPATH\Controllers\Admin\Blog.php(74): App\Controllers\BaseController->adminFrontendLoad('Blog/editBlog', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Blog->editBlog('2')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 11:01:23 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: blogs]
+in APPPATH\Views\home\blogs.php on line 26.
+ 1 APPPATH\Views\home\blogs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\blogs.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/blogs', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/blogs', [...])
+ 6 APPPATH\Controllers\Home.php(129): App\Controllers\BaseController->frontendLoad('blogs', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blogs()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 11:27:00 --> ParseError: syntax error, unexpected double-quoted string ">", expecting "," or ";"
+[Method: GET, Route: blog/hardwork-is-needed-for-plumbing]
+in APPPATH\Views\home\blog-detail.php on line 92.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/blog-detail', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/blog-detail', [...])
+ 4 APPPATH\Controllers\Home.php(151): App\Controllers\BaseController->frontendLoad('blog-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blog('hardwork-is-needed-for-plumbing')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 11:27:01 --> ParseError: syntax error, unexpected double-quoted string ">", expecting "," or ";"
+[Method: GET, Route: blog/hardwork-is-needed-for-plumbing]
+in APPPATH\Views\home\blog-detail.php on line 92.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/blog-detail', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/blog-detail', [...])
+ 4 APPPATH\Controllers\Home.php(151): App\Controllers\BaseController->frontendLoad('blog-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blog('hardwork-is-needed-for-plumbing')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 11:27:02 --> ParseError: syntax error, unexpected double-quoted string ">", expecting "," or ";"
+[Method: GET, Route: blog/hardwork-is-needed-for-plumbing]
+in APPPATH\Views\home\blog-detail.php on line 92.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/blog-detail', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/blog-detail', [...])
+ 4 APPPATH\Controllers\Home.php(151): App\Controllers\BaseController->frontendLoad('blog-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blog('hardwork-is-needed-for-plumbing')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 11:27:02 --> ParseError: syntax error, unexpected double-quoted string ">", expecting "," or ";"
+[Method: GET, Route: blog/hardwork-is-needed-for-plumbing]
+in APPPATH\Views\home\blog-detail.php on line 92.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/blog-detail', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/blog-detail', [...])
+ 4 APPPATH\Controllers\Home.php(151): App\Controllers\BaseController->frontendLoad('blog-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blog('hardwork-is-needed-for-plumbing')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 11:27:02 --> ParseError: syntax error, unexpected double-quoted string ">", expecting "," or ";"
+[Method: GET, Route: blog/hardwork-is-needed-for-plumbing]
+in APPPATH\Views\home\blog-detail.php on line 92.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/blog-detail', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/blog-detail', [...])
+ 4 APPPATH\Controllers\Home.php(151): App\Controllers\BaseController->frontendLoad('blog-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blog('hardwork-is-needed-for-plumbing')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 11:58:10 --> BadMethodCallException: Call to undefined method App\Models\HomeModel::blogCommentList
+[Method: GET, Route: blog/completing-projects-of-a-client]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Home.php(133): CodeIgniter\Model->__call('blogCommentList', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blog('completing-projects-of-a-client')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 11:58:12 --> BadMethodCallException: Call to undefined method App\Models\HomeModel::blogCommentList
+[Method: GET, Route: blog/completing-projects-of-a-client]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Home.php(133): CodeIgniter\Model->__call('blogCommentList', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blog('completing-projects-of-a-client')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 12:36:14 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: /]
+in APPPATH\Views\home\index.php on line 670.
+ 1 APPPATH\Views\home\index.php(670): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\index.php', 670)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/index', [...])
+ 6 APPPATH\Controllers\Home.php(40): App\Controllers\BaseController->frontendLoad('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 12:36:19 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: /]
+in APPPATH\Views\home\index.php on line 670.
+ 1 APPPATH\Views\home\index.php(670): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\index.php', 670)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/index', [...])
+ 6 APPPATH\Controllers\Home.php(40): App\Controllers\BaseController->frontendLoad('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 12:36:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: blog/domestic-water-softener]
+in APPPATH\Controllers\Home.php on line 133.
+ 1 APPPATH\Controllers\Home.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->blog('domestic-water-softener')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:02:25 --> ErrorException: require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 8.
+ 1 APPPATH\Controllers\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 8)
+ 2 APPPATH\Controllers\Home.php(8): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:02:27 --> ErrorException: require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 8.
+ 1 APPPATH\Controllers\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 8)
+ 2 APPPATH\Controllers\Home.php(8): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:02:34 --> ErrorException: require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 8.
+ 1 APPPATH\Controllers\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 8)
+ 2 APPPATH\Controllers\Home.php(8): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:02:37 --> ErrorException: require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 8.
+ 1 APPPATH\Controllers\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 8)
+ 2 APPPATH\Controllers\Home.php(8): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:02:46 --> ErrorException: require(TestMail/PHPMailer/src/SMTP.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 9.
+ 1 APPPATH\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(TestMail/PHPMailer/src/SMTP.php): Failed to open stream: No such file or directory', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 9)
+ 2 APPPATH\Controllers\Home.php(9): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:02:54 --> ErrorException: require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 8.
+ 1 APPPATH\Controllers\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 8)
+ 2 APPPATH\Controllers\Home.php(8): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:02:56 --> ErrorException: require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 8.
+ 1 APPPATH\Controllers\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 8)
+ 2 APPPATH\Controllers\Home.php(8): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:03:13 --> ErrorException: require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 8.
+ 1 APPPATH\Controllers\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(TestMail/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 8)
+ 2 APPPATH\Controllers\Home.php(8): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:03:27 --> ErrorException: require(TestMail/PHPMailer/src/SMTP.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 9.
+ 1 APPPATH\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(TestMail/PHPMailer/src/SMTP.php): Failed to open stream: No such file or directory', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 9)
+ 2 APPPATH\Controllers\Home.php(9): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-27 13:03:37 --> ErrorException: require(TestMail/PHPMailer/src/Exception.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 10.
+ 1 APPPATH\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(TestMail/PHPMailer/src/Exception.php): Failed to open stream: No such file or directory', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php', 10)
+ 2 APPPATH\Controllers\Home.php(10): require()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 7 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 8 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

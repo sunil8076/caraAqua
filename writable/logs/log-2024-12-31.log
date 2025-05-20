@@ -1,0 +1,85 @@
+CRITICAL - 2024-12-31 06:47:03 --> ErrorException: Undefined array key "credit_name"
+[Method: GET, Route: admin/purchase-credit-list]
+in APPPATH/Views/admin/credit/purchase_credit.php on line 38.
+ 1 APPPATH/Views/admin/credit/purchase_credit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "credit_name"', '/home2/cwltechin/public_html/dawar-jewellery/app/Views/admin/credit/purchase_credit.php', 38)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/cwltechin/public_html/dawar-jewellery/app/Views/admin/credit/purchase_credit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/credit/purchase_credit', [], true)
+ 5 APPPATH/Controllers/BaseController.php(65): view('admin/credit/purchase_credit', [...])
+ 6 APPPATH/Controllers/Admin/Credit.php(48): App\Controllers\BaseController->adminFrontendLoad('credit/purchase_credit', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Credit->purchaseCreditList()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Credit))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 08:50:27 --> ErrorException: Undefined array key "credit_name"
+[Method: GET, Route: admin/purchase-credit-list]
+in APPPATH/Views/admin/credit/purchase_credit.php on line 38.
+ 1 APPPATH/Views/admin/credit/purchase_credit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "credit_name"', '/home2/cwltechin/public_html/dawar-jewellery/app/Views/admin/credit/purchase_credit.php', 38)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/cwltechin/public_html/dawar-jewellery/app/Views/admin/credit/purchase_credit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/credit/purchase_credit', [], true)
+ 5 APPPATH/Controllers/BaseController.php(65): view('admin/credit/purchase_credit', [...])
+ 6 APPPATH/Controllers/Admin/Credit.php(48): App\Controllers\BaseController->adminFrontendLoad('credit/purchase_credit', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Credit->purchaseCreditList()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Credit))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 11:52:55 --> ErrorException: Undefined array key "credit_name"
+[Method: GET, Route: admin/purchase-credit-list]
+in APPPATH/Views/admin/credit/purchase_credit.php on line 38.
+ 1 APPPATH/Views/admin/credit/purchase_credit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "credit_name"', '/home2/cwltechin/public_html/dawar-jewellery/app/Views/admin/credit/purchase_credit.php', 38)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/cwltechin/public_html/dawar-jewellery/app/Views/admin/credit/purchase_credit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/credit/purchase_credit', [], true)
+ 5 APPPATH/Controllers/BaseController.php(65): view('admin/credit/purchase_credit', [...])
+ 6 APPPATH/Controllers/Admin/Credit.php(48): App\Controllers\BaseController->adminFrontendLoad('credit/purchase_credit', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Credit->purchaseCreditList()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Credit))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 13:10:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: authenticateRegistartionFees]
+in APPPATH/Controllers/Home.php on line 193.
+ 1 APPPATH/Controllers/Home.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 193)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticateRegistartionFees()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 13:11:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: authenticateRegistartionFees]
+in APPPATH/Controllers/Home.php on line 193.
+ 1 APPPATH/Controllers/Home.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 193)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticateRegistartionFees()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 13:18:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: authenticateRegistartionFees]
+in APPPATH/Controllers/Home.php on line 193.
+ 1 APPPATH/Controllers/Home.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 193)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticateRegistartionFees()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-31 13:19:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: authenticateRegistartionFees]
+in APPPATH/Controllers/Home.php on line 193.
+ 1 APPPATH/Controllers/Home.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 193)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->authenticateRegistartionFees()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

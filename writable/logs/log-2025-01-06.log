@@ -1,0 +1,75 @@
+CRITICAL - 2025-01-06 04:00:20 --> ErrorException: Undefined array key "credit_name"
+[Method: GET, Route: admin/purchase-credit-list]
+in APPPATH/Views/admin/credit/purchase_credit.php on line 38.
+ 1 APPPATH/Views/admin/credit/purchase_credit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "credit_name"', '/home2/dawarjewellers/public_html/app/Views/admin/credit/purchase_credit.php', 38)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/dawarjewellers/public_html/app/Views/admin/credit/purchase_credit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/credit/purchase_credit', [], true)
+ 5 APPPATH/Controllers/BaseController.php(65): view('admin/credit/purchase_credit', [...])
+ 6 APPPATH/Controllers/Admin/Credit.php(48): App\Controllers\BaseController->adminFrontendLoad('credit/purchase_credit', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Credit->purchaseCreditList()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Credit))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:21:12 --> ErrorException: Undefined array key "credit_name"
+[Method: GET, Route: admin/purchase-credit-list]
+in APPPATH\Views\admin\credit\purchase_credit.php on line 38.
+ 1 APPPATH\Views\admin\credit\purchase_credit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "credit_name"', 'C:\\xampp\\htdocs\\dawar-06\\app\\Views\\admin\\credit\\purchase_credit.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dawar-06\\app\\Views\\admin\\credit\\purchase_credit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/credit/purchase_credit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/credit/purchase_credit', [...])
+ 6 APPPATH\Controllers\Admin\Credit.php(48): App\Controllers\BaseController->adminFrontendLoad('credit/purchase_credit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Credit->purchaseCreditList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Credit))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:22:41 --> ErrorException: Undefined array key "credit_name"
+[Method: GET, Route: admin/purchase-credit-list]
+in APPPATH\Views\admin\credit\purchase_credit.php on line 38.
+ 1 APPPATH\Views\admin\credit\purchase_credit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "credit_name"', 'C:\\xampp\\htdocs\\dawar-06\\app\\Views\\admin\\credit\\purchase_credit.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dawar-06\\app\\Views\\admin\\credit\\purchase_credit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/credit/purchase_credit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/credit/purchase_credit', [...])
+ 6 APPPATH\Controllers\Admin\Credit.php(48): App\Controllers\BaseController->adminFrontendLoad('credit/purchase_credit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Credit->purchaseCreditList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Credit))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 12:23:34 --> ErrorException: Undefined array key "credit_name"
+[Method: GET, Route: admin/purchase-credit-list]
+in APPPATH\Views\admin\credit\purchase_credit.php on line 38.
+ 1 APPPATH\Views\admin\credit\purchase_credit.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "credit_name"', 'C:\\xampp\\htdocs\\dawar-06\\app\\Views\\admin\\credit\\purchase_credit.php', 38)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dawar-06\\app\\Views\\admin\\credit\\purchase_credit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/credit/purchase_credit', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/credit/purchase_credit', [...])
+ 6 APPPATH\Controllers\Admin\Credit.php(48): App\Controllers\BaseController->adminFrontendLoad('credit/purchase_credit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Credit->purchaseCreditList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Credit))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-06 13:09:43 --> ErrorException: Undefined variable $creditData
+[Method: GET, Route: admin/purchase-credit/create]
+in APPPATH\Views\admin\credit\purchase_credit_create.php on line 39.
+ 1 APPPATH\Views\admin\credit\purchase_credit_create.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $creditData', 'C:\\xampp\\htdocs\\dawar-06\\app\\Views\\admin\\credit\\purchase_credit_create.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\dawar-06\\app\\Views\\admin\\credit\\purchase_credit_create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/credit/purchase_credit_create', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/credit/purchase_credit_create', [])
+ 6 APPPATH\Controllers\Admin\Credit.php(73): App\Controllers\BaseController->adminFrontendLoad('credit/purchase_credit_create')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Credit->purchaseCreditcreate()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Credit))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

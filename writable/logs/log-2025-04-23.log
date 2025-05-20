@@ -1,0 +1,475 @@
+CRITICAL - 2025-04-23 09:04:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/Aproduct/add-product.php"
+[Method: GET, Route: admin/add-aproduct]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/Aproduct/add-product.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Aproduct/add-product', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/Aproduct/add-product', [])
+ 4 APPPATH\Controllers\Admin\Aproduct.php(20): App\Controllers\BaseController->adminFrontendLoad('Aproduct/add-product')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->createProduct()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 09:20:50 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: admin/Aproduct]
+in APPPATH\Views\admin\Aproduct\index.php on line 34.
+ 1 APPPATH\Views\admin\Aproduct\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Aproduct/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/Aproduct/index', [...])
+ 6 APPPATH\Controllers\Admin\Aproduct.php(16): App\Controllers\BaseController->adminFrontendLoad('Aproduct/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 09:21:00 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: admin/Aproduct]
+in APPPATH\Views\admin\Aproduct\index.php on line 34.
+ 1 APPPATH\Views\admin\Aproduct\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Aproduct/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/Aproduct/index', [...])
+ 6 APPPATH\Controllers\Admin\Aproduct.php(16): App\Controllers\BaseController->adminFrontendLoad('Aproduct/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 09:21:12 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: admin/Aproduct]
+in APPPATH\Views\admin\Aproduct\index.php on line 34.
+ 1 APPPATH\Views\admin\Aproduct\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Aproduct/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/Aproduct/index', [...])
+ 6 APPPATH\Controllers\Admin\Aproduct.php(16): App\Controllers\BaseController->adminFrontendLoad('Aproduct/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 09:21:34 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: admin/Aproduct]
+in APPPATH\Views\admin\Aproduct\index.php on line 34.
+ 1 APPPATH\Views\admin\Aproduct\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Aproduct/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/Aproduct/index', [...])
+ 6 APPPATH\Controllers\Admin\Aproduct.php(16): App\Controllers\BaseController->adminFrontendLoad('Aproduct/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 09:22:21 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: admin/Aproduct]
+in APPPATH\Views\admin\Aproduct\index.php on line 34.
+ 1 APPPATH\Views\admin\Aproduct\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Aproduct/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/Aproduct/index', [...])
+ 6 APPPATH\Controllers\Admin\Aproduct.php(16): App\Controllers\BaseController->adminFrontendLoad('Aproduct/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 09:25:19 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: admin/Aproduct]
+in APPPATH\Views\admin\Aproduct\index.php on line 34.
+ 1 APPPATH\Views\admin\Aproduct\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Aproduct/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/Aproduct/index', [...])
+ 6 APPPATH\Controllers\Admin\Aproduct.php(16): App\Controllers\BaseController->adminFrontendLoad('Aproduct/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 09:26:03 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: admin/Aproduct]
+in APPPATH\Views\admin\Aproduct\index.php on line 34.
+ 1 APPPATH\Views\admin\Aproduct\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Aproduct/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/Aproduct/index', [...])
+ 6 APPPATH\Controllers\Admin\Aproduct.php(16): App\Controllers\BaseController->adminFrontendLoad('Aproduct/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 10:15:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/product/edit-Aproduct.php"
+[Method: GET, Route: admin/product/edit-Aproduct/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/product/edit-Aproduct.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product/edit-Aproduct', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/product/edit-Aproduct', [...])
+ 4 APPPATH\Controllers\Admin\Aproduct.php(128): App\Controllers\BaseController->adminFrontendLoad('product/edit-Aproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->editProduct('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 10:15:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/product/edit-Aproduct.php"
+[Method: GET, Route: admin/product/edit-Aproduct/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/product/edit-Aproduct.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product/edit-Aproduct', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/product/edit-Aproduct', [...])
+ 4 APPPATH\Controllers\Admin\Aproduct.php(128): App\Controllers\BaseController->adminFrontendLoad('product/edit-Aproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->editProduct('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 10:24:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/product/edit-Aproduct.php"
+[Method: GET, Route: admin/product/edit-Aproduct/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/product/edit-Aproduct.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product/edit-Aproduct', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/product/edit-Aproduct', [...])
+ 4 APPPATH\Controllers\Admin\Aproduct.php(128): App\Controllers\BaseController->adminFrontendLoad('product/edit-Aproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->editProduct('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 10:25:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/product/edit-Aproduct.php"
+[Method: GET, Route: admin/product/edit-Aproduct/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/product/edit-Aproduct.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product/edit-Aproduct', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/product/edit-Aproduct', [...])
+ 4 APPPATH\Controllers\Admin\Aproduct.php(128): App\Controllers\BaseController->adminFrontendLoad('product/edit-Aproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->editProduct('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 10:27:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/product/edit-Aproduct.php"
+[Method: GET, Route: admin/product/edit-Aproduct/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/product/edit-Aproduct.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product/edit-Aproduct', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/product/edit-Aproduct', [...])
+ 4 APPPATH\Controllers\Admin\Aproduct.php(128): App\Controllers\BaseController->adminFrontendLoad('product/edit-Aproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->editProduct('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 10:33:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/product/edit-Aproduct.php"
+[Method: GET, Route: admin/product/edit-Aproduct/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/product/edit-Aproduct.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/product/edit-Aproduct', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/product/edit-Aproduct', [...])
+ 4 APPPATH\Controllers\Admin\Aproduct.php(128): App\Controllers\BaseController->adminFrontendLoad('product/edit-Aproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->editProduct('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 10:58:01 --> ErrorException: Undefined array key "heading_slug"
+[Method: GET, Route: /]
+in APPPATH\Views\home\common\header.php on line 156.
+ 1 APPPATH\Views\home\common\header.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "heading_slug"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 156)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(50): App\Controllers\BaseController->frontendLoad('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 11:13:18 --> ErrorException: Undefined array key "heading_slu"
+[Method: GET, Route: /]
+in APPPATH\Views\home\common\header.php on line 156.
+ 1 APPPATH\Views\home\common\header.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "heading_slu"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 156)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(50): App\Controllers\BaseController->frontendLoad('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 11:20:37 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/erferg5345]
+in APPPATH\Views\home\product-details.php on line 10.
+ 1 APPPATH\Views\home\product-details.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\product-details.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\product-details.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/product-details', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/product-details', [...])
+ 6 APPPATH\Controllers\Home.php(390): App\Controllers\BaseController->frontendLoad('product-details', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('erferg5345')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 11:39:02 --> ErrorException: Undefined variable $productList
+[Method: GET, Route: admin/Aproduct]
+in APPPATH\Views\admin\Aproduct\index.php on line 29.
+ 1 APPPATH\Views\admin\Aproduct\index.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productList', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\Aproduct\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/Aproduct/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/Aproduct/index', [...])
+ 6 APPPATH\Controllers\Admin\Aproduct.php(16): App\Controllers\BaseController->adminFrontendLoad('Aproduct/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Aproduct->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Aproduct))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:02:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Controllers\Home.php on line 372.
+ 1 APPPATH\Controllers\Home.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\kara_new\\app\\Controllers\\Home.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:04:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Controllers\Home.php on line 372.
+ 1 APPPATH\Controllers\Home.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\kara_new\\app\\Controllers\\Home.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:05:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Controllers\Home.php on line 372.
+ 1 APPPATH\Controllers\Home.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\kara_new\\app\\Controllers\\Home.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:07:34 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Controllers\Home.php on line 372.
+ 1 APPPATH\Controllers\Home.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\kara_new\\app\\Controllers\\Home.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:08:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Controllers\Home.php on line 372.
+ 1 APPPATH\Controllers\Home.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\kara_new\\app\\Controllers\\Home.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:10:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Controllers\Home.php on line 372.
+ 1 APPPATH\Controllers\Home.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\kara_new\\app\\Controllers\\Home.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:16:26 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Views\home\Aproduct.php on line 10.
+ 1 APPPATH\Views\home\Aproduct.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Aproduct', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/Aproduct', [...])
+ 6 APPPATH\Controllers\Home.php(389): App\Controllers\BaseController->frontendLoad('Aproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:16:30 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Views\home\Aproduct.php on line 10.
+ 1 APPPATH\Views\home\Aproduct.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Aproduct', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/Aproduct', [...])
+ 6 APPPATH\Controllers\Home.php(389): App\Controllers\BaseController->frontendLoad('Aproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:16:30 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Views\home\Aproduct.php on line 10.
+ 1 APPPATH\Views\home\Aproduct.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Aproduct', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/Aproduct', [...])
+ 6 APPPATH\Controllers\Home.php(389): App\Controllers\BaseController->frontendLoad('Aproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:16:31 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Views\home\Aproduct.php on line 10.
+ 1 APPPATH\Views\home\Aproduct.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Aproduct', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/Aproduct', [...])
+ 6 APPPATH\Controllers\Home.php(389): App\Controllers\BaseController->frontendLoad('Aproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:16:31 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Views\home\Aproduct.php on line 10.
+ 1 APPPATH\Views\home\Aproduct.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Aproduct', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/Aproduct', [...])
+ 6 APPPATH\Controllers\Home.php(389): App\Controllers\BaseController->frontendLoad('Aproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:16:31 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Views\home\Aproduct.php on line 10.
+ 1 APPPATH\Views\home\Aproduct.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Aproduct', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/Aproduct', [...])
+ 6 APPPATH\Controllers\Home.php(389): App\Controllers\BaseController->frontendLoad('Aproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:16:31 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Views\home\Aproduct.php on line 10.
+ 1 APPPATH\Views\home\Aproduct.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Aproduct', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/Aproduct', [...])
+ 6 APPPATH\Controllers\Home.php(389): App\Controllers\BaseController->frontendLoad('Aproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:22:37 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Views\home\Aproduct.php on line 35.
+ 1 APPPATH\Views\home\Aproduct.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Aproduct', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/Aproduct', [...])
+ 6 APPPATH\Controllers\Home.php(389): App\Controllers\BaseController->frontendLoad('Aproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:23:03 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/ccv]
+in APPPATH\Views\home\Aproduct.php on line 47.
+ 1 APPPATH\Views\home\Aproduct.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Aproduct', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/Aproduct', [...])
+ 6 APPPATH\Controllers\Home.php(389): App\Controllers\BaseController->frontendLoad('Aproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('ccv')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 12:26:51 --> ErrorException: Undefined variable $product
+[Method: GET, Route: Aproduct/water]
+in APPPATH\Views\home\Aproduct.php on line 17.
+ 1 APPPATH\Views\home\Aproduct.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\Aproduct.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/Aproduct', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/Aproduct', [...])
+ 6 APPPATH\Controllers\Home.php(389): App\Controllers\BaseController->frontendLoad('Aproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->aproduct('water')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-23 13:26:36 --> Error: Class "App\Models\Admin\AproductModel" not found
+[Method: GET, Route: admin/Aproduct]
+in APPPATH\Controllers\Admin\Aproduct.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\Aproduct->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

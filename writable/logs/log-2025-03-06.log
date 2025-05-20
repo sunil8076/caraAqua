@@ -1,0 +1,523 @@
+CRITICAL - 2025-03-06 06:02:23 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admin/category/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(52): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(79): App\Models\Admin\CategoryModel->deletecategory('5')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->delete('5')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:02:59 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: admin/category/updatecategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(38): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(59): App\Models\Admin\CategoryModel->checkcategoryById('1', 'diamond-jewellery')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->updatecategory()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:03:00 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: admin/category/updatecategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(38): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(59): App\Models\Admin\CategoryModel->checkcategoryById('1', 'diamond-jewellery')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->updatecategory()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:03:00 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: admin/category/updatecategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(38): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(59): App\Models\Admin\CategoryModel->checkcategoryById('1', 'diamond-jewellery')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->updatecategory()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:03:00 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: admin/category/updatecategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(38): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(59): App\Models\Admin\CategoryModel->checkcategoryById('1', 'diamond-jewellery')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->updatecategory()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:03:00 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: admin/category/updatecategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(38): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(59): App\Models\Admin\CategoryModel->checkcategoryById('1', 'diamond-jewellery')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->updatecategory()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:03:01 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: admin/category/updatecategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(38): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(59): App\Models\Admin\CategoryModel->checkcategoryById('1', 'diamond-jewellery')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->updatecategory()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:03:08 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admin/category/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(52): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(79): App\Models\Admin\CategoryModel->deletecategory('5')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->delete('5')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:05:47 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admin/category/delete/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(52): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(79): App\Models\Admin\CategoryModel->deletecategory('3')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->delete('3')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:07:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: admin/category/savecategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(31): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(31): App\Models\Admin\CategoryModel->checkcategoryBySlug('56456')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->savecategory()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:07:49 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: admin/category/savecategory]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(31): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(31): App\Models\Admin\CategoryModel->checkcategoryBySlug('test')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->savecategory()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:08:49 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admin/category/delete/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(52): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(79): App\Models\Admin\CategoryModel->deletecategory('3')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->delete('3')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:09:57 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admin/category/delete/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(51): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(79): App\Models\Admin\CategoryModel->deletecategory('4')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->delete('4')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:10:30 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admin/category/delete/4]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 APPPATH\Models\Admin\CategoryModel.php(51): CodeIgniter\Database\BaseConnection->table(null)
+ 2 APPPATH\Controllers\Admin\Category.php(79): App\Models\Admin\CategoryModel->deletecategory('4')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Category->delete('4')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-06 06:35:20 --> mysqli_sql_exception: Table 'wvc.location' doesn't exist in C:\xampp\htdocs\wvc_05.03.25\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\wvc_05.03.25\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\wvc_05.03.25\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\wvc_05.03.25\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\wvc_05.03.25\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wvc_05.03.25\app\Models\Admin\LocationModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wvc_05.03.25\app\Controllers\Admin\Location.php(16): App\Models\Admin\LocationModel->locationList()
+#6 C:\xampp\htdocs\wvc_05.03.25\system\CodeIgniter.php(933): App\Controllers\Admin\Location->locationList()
+#7 C:\xampp\htdocs\wvc_05.03.25\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+#8 C:\xampp\htdocs\wvc_05.03.25\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wvc_05.03.25\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\wvc_05.03.25\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\wvc_05.03.25\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-06 06:35:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'wvc.location' doesn't exist
+[Method: GET, Route: admin/location]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `location`', [], false)
+ 2 APPPATH\Models\Admin\LocationModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\Location.php(16): App\Models\Admin\LocationModel->locationList()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->locationList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:35:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'wvc.location' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `location`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `location`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `location`', [], false)
+ 4 APPPATH\Models\Admin\LocationModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin\Location.php(16): App\Models\Admin\LocationModel->locationList()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->locationList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:35:20 --> [Caused by] mysqli_sql_exception: Table 'wvc.location' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `location`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `location`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `location`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `location`', [], false)
+ 5 APPPATH\Models\Admin\LocationModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\Location.php(16): App\Models\Admin\LocationModel->locationList()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->locationList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:49:00 --> BadMethodCallException: Call to undefined method App\Models\Admin\LocationModel::checklocation
+[Method: POST, Route: admin/location/savelocation]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\Location.php(28): CodeIgniter\Model->__call('checklocation', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->saveLocation()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:51:59 --> ErrorException: Undefined variable $category
+[Method: GET, Route: admin/location]
+in APPPATH\Views\admin\location\index.php on line 35.
+ 1 APPPATH\Views\admin\location\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/location/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/location/index', [...])
+ 6 APPPATH\Controllers\Admin\Location.php(17): App\Controllers\BaseController->adminFrontendLoad('location/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->locationList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:52:00 --> ErrorException: Undefined variable $category
+[Method: GET, Route: admin/location]
+in APPPATH\Views\admin\location\index.php on line 35.
+ 1 APPPATH\Views\admin\location\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/location/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/location/index', [...])
+ 6 APPPATH\Controllers\Admin\Location.php(17): App\Controllers\BaseController->adminFrontendLoad('location/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->locationList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:52:40 --> ErrorException: Undefined array key "location	"
+[Method: GET, Route: admin/location]
+in APPPATH\Views\admin\location\index.php on line 35.
+ 1 APPPATH\Views\admin\location\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "location	"', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/location/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/location/index', [...])
+ 6 APPPATH\Controllers\Admin\Location.php(17): App\Controllers\BaseController->adminFrontendLoad('location/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->locationList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:52:43 --> ErrorException: Undefined array key "location	"
+[Method: GET, Route: admin/location]
+in APPPATH\Views\admin\location\index.php on line 35.
+ 1 APPPATH\Views\admin\location\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "location	"', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/location/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/location/index', [...])
+ 6 APPPATH\Controllers\Admin\Location.php(17): App\Controllers\BaseController->adminFrontendLoad('location/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->locationList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:52:43 --> ErrorException: Undefined array key "location	"
+[Method: GET, Route: admin/location]
+in APPPATH\Views\admin\location\index.php on line 35.
+ 1 APPPATH\Views\admin\location\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "location	"', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/location/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/location/index', [...])
+ 6 APPPATH\Controllers\Admin\Location.php(17): App\Controllers\BaseController->adminFrontendLoad('location/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->locationList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:52:43 --> ErrorException: Undefined array key "location	"
+[Method: GET, Route: admin/location]
+in APPPATH\Views\admin\location\index.php on line 35.
+ 1 APPPATH\Views\admin\location\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "location	"', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/location/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/location/index', [...])
+ 6 APPPATH\Controllers\Admin\Location.php(17): App\Controllers\BaseController->adminFrontendLoad('location/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->locationList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:54:11 --> ErrorException: Undefined variable $categoryData
+[Method: GET, Route: admin/location/edit-location/1]
+in APPPATH\Views\admin\location\edit-location.php on line 16.
+ 1 APPPATH\Views\admin\location\edit-location.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryData', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\edit-location.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\edit-location.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/location/edit-location', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/location/edit-location', [...])
+ 6 APPPATH\Controllers\Admin\Location.php(47): App\Controllers\BaseController->adminFrontendLoad('location/edit-location', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->editLocation('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:55:56 --> ErrorException: Undefined variable $location
+[Method: GET, Route: admin/location/edit-location/1]
+in APPPATH\Views\admin\location\edit-location.php on line 16.
+ 1 APPPATH\Views\admin\location\edit-location.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $location', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\edit-location.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\edit-location.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/location/edit-location', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/location/edit-location', [...])
+ 6 APPPATH\Controllers\Admin\Location.php(47): App\Controllers\BaseController->adminFrontendLoad('location/edit-location', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->editLocation('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:56:12 --> ErrorException: Undefined variable $location
+[Method: GET, Route: admin/location/edit-location/1]
+in APPPATH\Views\admin\location\edit-location.php on line 16.
+ 1 APPPATH\Views\admin\location\edit-location.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $location', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\edit-location.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\edit-location.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/location/edit-location', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/location/edit-location', [...])
+ 6 APPPATH\Controllers\Admin\Location.php(47): App\Controllers\BaseController->adminFrontendLoad('location/edit-location', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->editLocation('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 06:56:36 --> ErrorException: Undefined array key "category"
+[Method: GET, Route: admin/location/edit-location/1]
+in APPPATH\Views\admin\location\edit-location.php on line 21.
+ 1 APPPATH\Views\admin\location\edit-location.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\edit-location.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\location\\edit-location.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/location/edit-location', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/location/edit-location', [...])
+ 6 APPPATH\Controllers\Admin\Location.php(47): App\Controllers\BaseController->adminFrontendLoad('location/edit-location', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Location->editLocation('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Location))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 09:34:05 --> ErrorException: Undefined array key "location"
+[Method: GET, Route: admin/specialty]
+in APPPATH\Views\admin\specialty\index.php on line 35.
+ 1 APPPATH\Views\admin\specialty\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "location"', 'C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\specialty\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\wvc_05.03.25\\app\\Views\\admin\\specialty\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/specialty/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/specialty/index', [...])
+ 6 APPPATH\Controllers\Admin\Specialty.php(17): App\Controllers\BaseController->adminFrontendLoad('specialty/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Specialty->specialtyList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Specialty))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-06 10:47:29 --> mysqli_sql_exception: Table 'wvc.travelsvenue' doesn't exist in C:\xampp\htdocs\wvc_05.03.25\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\wvc_05.03.25\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\wvc_05.03.25\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\wvc_05.03.25\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\wvc_05.03.25\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wvc_05.03.25\app\Models\Admin\TravelsVenueModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wvc_05.03.25\app\Controllers\Admin\TravelsVenue.php(16): App\Models\Admin\TravelsVenueModel->travelsvenueList()
+#6 C:\xampp\htdocs\wvc_05.03.25\system\CodeIgniter.php(933): App\Controllers\Admin\TravelsVenue->travelsvenueList()
+#7 C:\xampp\htdocs\wvc_05.03.25\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TravelsVenue))
+#8 C:\xampp\htdocs\wvc_05.03.25\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wvc_05.03.25\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\wvc_05.03.25\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\wvc_05.03.25\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-06 10:47:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'wvc.travelsvenue' doesn't exist
+[Method: GET, Route: admin/travels-to-venue]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `travelsvenue`', [], false)
+ 2 APPPATH\Models\Admin\TravelsVenueModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\TravelsVenue.php(16): App\Models\Admin\TravelsVenueModel->travelsvenueList()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TravelsVenue->travelsvenueList()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TravelsVenue))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 10:47:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'wvc.travelsvenue' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `travelsvenue`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `travelsvenue`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `travelsvenue`', [], false)
+ 4 APPPATH\Models\Admin\TravelsVenueModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin\TravelsVenue.php(16): App\Models\Admin\TravelsVenueModel->travelsvenueList()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TravelsVenue->travelsvenueList()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TravelsVenue))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 10:47:29 --> [Caused by] mysqli_sql_exception: Table 'wvc.travelsvenue' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `travelsvenue`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `travelsvenue`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `travelsvenue`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `travelsvenue`', [], false)
+ 5 APPPATH\Models\Admin\TravelsVenueModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\TravelsVenue.php(16): App\Models\Admin\TravelsVenueModel->travelsvenueList()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TravelsVenue->travelsvenueList()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TravelsVenue))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-06 10:51:30 --> mysqli_sql_exception: Unknown column 'Travelsvenue' in 'where clause' in C:\xampp\htdocs\wvc_05.03.25\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\wvc_05.03.25\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\wvc_05.03.25\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\wvc_05.03.25\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\wvc_05.03.25\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wvc_05.03.25\app\Models\Admin\TravelsVenueModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wvc_05.03.25\app\Controllers\Admin\TravelsVenue.php(28): App\Models\Admin\TravelsVenueModel->checkTravelsvenue('test')
+#6 C:\xampp\htdocs\wvc_05.03.25\system\CodeIgniter.php(933): App\Controllers\Admin\TravelsVenue->saveTravelsVenue()
+#7 C:\xampp\htdocs\wvc_05.03.25\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TravelsVenue))
+#8 C:\xampp\htdocs\wvc_05.03.25\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wvc_05.03.25\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\wvc_05.03.25\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\wvc_05.03.25\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-03-06 10:51:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Travelsvenue' in 'where clause'
+[Method: POST, Route: admin/travels-to-venue/savetravelsvenue]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `travel_venue`
+WHERE `Travelsvenue` = :Travelsvenue:', [...], false)
+ 2 APPPATH\Models\Admin\TravelsVenueModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\TravelsVenue.php(28): App\Models\Admin\TravelsVenueModel->checkTravelsvenue('test')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TravelsVenue->saveTravelsVenue()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TravelsVenue))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 10:51:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Travelsvenue' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `travel_venue`
+WHERE `Travelsvenue` = \'test\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `travel_venue`
+WHERE `Travelsvenue` = \'test\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `travel_venue`
+WHERE `Travelsvenue` = :Travelsvenue:', [...], false)
+ 4 APPPATH\Models\Admin\TravelsVenueModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin\TravelsVenue.php(28): App\Models\Admin\TravelsVenueModel->checkTravelsvenue('test')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TravelsVenue->saveTravelsVenue()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TravelsVenue))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-06 10:51:30 --> [Caused by] mysqli_sql_exception: Unknown column 'Travelsvenue' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `travel_venue`
+WHERE `Travelsvenue` = \'test\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `travel_venue`
+WHERE `Travelsvenue` = \'test\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `travel_venue`
+WHERE `Travelsvenue` = \'test\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `travel_venue`
+WHERE `Travelsvenue` = :Travelsvenue:', [...], false)
+ 5 APPPATH\Models\Admin\TravelsVenueModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\TravelsVenue.php(28): App\Models\Admin\TravelsVenueModel->checkTravelsvenue('test')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\TravelsVenue->saveTravelsVenue()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\TravelsVenue))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

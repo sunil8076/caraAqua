@@ -1,0 +1,313 @@
+CRITICAL - 2025-04-16 05:42:52 --> ErrorException: Undefined array key "editor"
+[Method: GET, Route: admin/myproduct/edit-product/3]
+in APPPATH\Views\admin\myproduct\edit-product.php on line 57.
+ 1 APPPATH\Views\admin\myproduct\edit-product.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "editor"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\myproduct\\edit-product.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\myproduct\\edit-product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/myproduct/edit-product', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/myproduct/edit-product', [...])
+ 6 APPPATH\Controllers\Admin\Myproduct.php(67): App\Controllers\BaseController->adminFrontendLoad('myproduct/edit-product', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Myproduct->editProduct('3')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Myproduct))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 05:43:05 --> ErrorException: Undefined array key "editor"
+[Method: GET, Route: admin/myproduct/edit-product/5]
+in APPPATH\Views\admin\myproduct\edit-product.php on line 57.
+ 1 APPPATH\Views\admin\myproduct\edit-product.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "editor"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\myproduct\\edit-product.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\admin\\myproduct\\edit-product.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/myproduct/edit-product', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/myproduct/edit-product', [...])
+ 6 APPPATH\Controllers\Admin\Myproduct.php(67): App\Controllers\BaseController->adminFrontendLoad('myproduct/edit-product', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Myproduct->editProduct('5')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Myproduct))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 10:57:22 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: contact-us]
+in APPPATH\Config\Routes.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 11:22:33 --> ErrorException: Undefined array key "abot_image"
+[Method: GET, Route: /]
+in APPPATH\Views\home\index.php on line 273.
+ 1 APPPATH\Views\home\index.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "abot_image"', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\index.php', 273)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/index', [...])
+ 6 APPPATH\Controllers\Home.php(50): App\Controllers\BaseController->frontendLoad('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 12:26:13 --> ErrorException: Undefined variable $title
+[Method: GET, Route: thisproduct1]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(347): App\Controllers\BaseController->frontendLoad('thisproduct')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 12:27:11 --> ErrorException: Undefined variable $title
+[Method: GET, Route: thisproduct]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(347): App\Controllers\BaseController->frontendLoad('thisproduct')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 12:27:51 --> ErrorException: Undefined variable $title
+[Method: GET, Route: thisproduct]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(347): App\Controllers\BaseController->frontendLoad('thisproduct')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 12:28:53 --> ErrorException: Undefined variable $title
+[Method: GET, Route: thisproduct]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(347): App\Controllers\BaseController->frontendLoad('thisproduct1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 12:30:36 --> ErrorException: Undefined variable $title
+[Method: GET, Route: thisproduct]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(347): App\Controllers\BaseController->frontendLoad('thisproduct1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 12:30:52 --> ErrorException: Undefined variable $title
+[Method: GET, Route: thisproduct0]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(347): App\Controllers\BaseController->frontendLoad('thisproduct1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 12:31:34 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: thisproduct0]
+in APPPATH\Controllers\Home.php on line 347.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\kara_new\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 12:34:32 --> ErrorException: Undefined variable $title
+[Method: GET, Route: thisproduct0]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(347): App\Controllers\BaseController->frontendLoad('thisproduct1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 12:47:26 --> ParseError: Unclosed '{' on line 6
+[Method: GET, Route: /]
+in APPPATH\Models\HomeModel.php on line 129.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\kara_new\\app\\Models\\HomeModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\HomeModel')
+ 3 APPPATH\Controllers\Home.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\HomeModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 13:16:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/thisproduct1.php"
+[Method: GET, Route: thisproduct0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/thisproduct1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/thisproduct1', [], true)
+ 3 APPPATH\Controllers\BaseController.php(65): view('admin/thisproduct1', [])
+ 4 APPPATH\Controllers\Home.php(370): App\Controllers\BaseController->adminFrontendLoad('thisproduct1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 13:17:40 --> ErrorException: Undefined variable $title
+[Method: GET, Route: thisproduct0]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(370): App\Controllers\BaseController->frontendLoad('thisproduct1')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 13:17:53 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: thisproduct0]
+in APPPATH\Controllers\Home.php on line 370.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\kara_new\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 13:22:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "thisproduct1.php"
+[Method: GET, Route: thisproduct0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('thisproduct1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('thisproduct1', [], true)
+ 3 APPPATH\Controllers\Home.php(371): view('thisproduct1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 13:24:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "thisproduct1.php"
+[Method: GET, Route: thisproduct0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('thisproduct1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('thisproduct1', [], true)
+ 3 APPPATH\Controllers\Home.php(371): view('thisproduct1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 13:24:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "thisproduct1.php"
+[Method: GET, Route: thisproduct0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('thisproduct1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('thisproduct1', [], true)
+ 3 APPPATH\Controllers\Home.php(371): view('thisproduct1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 13:25:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "thisproduct1.php"
+[Method: GET, Route: thisproduct0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('thisproduct1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('thisproduct1', [], true)
+ 3 APPPATH\Controllers\Home.php(371): view('thisproduct1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 13:25:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "thisproduct1.php"
+[Method: GET, Route: thisproduct0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('thisproduct1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('thisproduct1', [], true)
+ 3 APPPATH\Controllers\Home.php(371): view('thisproduct1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 13:25:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "thisproduct1.php"
+[Method: GET, Route: thisproduct0]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('thisproduct1.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('thisproduct1', [], true)
+ 3 APPPATH\Controllers\Home.php(371): view('thisproduct1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-16 13:28:35 --> ErrorException: Cannot declare class PHPMailer\PHPMailer\PHPMailer, because the name is already in use
+[Method: GET, Route: thisproduct0]
+in APPPATH\TestMail\PHPMailer\src\PHPMailer.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-16 13:30:31 --> ErrorException: Undefined variable $product
+[Method: GET, Route: thisproduct0]
+in APPPATH\Views\home\thisproduct1.php on line 10.
+ 1 APPPATH\Views\home\thisproduct1.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\thisproduct1.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\kara_new\\app\\Views\\home\\thisproduct1.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home\\thisproduct1', [], true)
+ 5 APPPATH\Controllers\Home.php(371): view('home\\thisproduct1')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->thisproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

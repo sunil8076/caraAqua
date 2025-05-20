@@ -1,0 +1,363 @@
+CRITICAL - 2025-04-05 05:59:53 --> ErrorException: Undefined variable $title
+[Method: GET, Route: products]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(245): App\Controllers\BaseController->frontendLoad('product-list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 05:59:56 --> ErrorException: Undefined variable $title
+[Method: GET, Route: products]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(245): App\Controllers\BaseController->frontendLoad('product-list', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-05 06:27:22 --> mysqli_sql_exception: Table 'kara.county' doesn't exist in E:\xampp New\htdocs\kara_new\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara_new\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp New\htdocs\kara_new\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp New\htdocs\kara_new\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp New\htdocs\kara_new\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara_new\app\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara_new\app\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+#6 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+#7 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+#8 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara_new\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara_new\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara_new\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-04-05 06:27:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'kara.county' doesn't exist
+[Method: GET, Route: admin/address/create-address]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 2 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 06:27:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'kara.county' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `county`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `county`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 4 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 06:27:22 --> [Caused by] mysqli_sql_exception: Table 'kara.county' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `county`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `county`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `county`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 5 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-05 06:27:25 --> mysqli_sql_exception: Table 'kara.county' doesn't exist in E:\xampp New\htdocs\kara_new\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara_new\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp New\htdocs\kara_new\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp New\htdocs\kara_new\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp New\htdocs\kara_new\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara_new\app\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara_new\app\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+#6 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+#7 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+#8 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara_new\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara_new\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara_new\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-04-05 06:27:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'kara.county' doesn't exist
+[Method: GET, Route: admin/address/create-address]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 2 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 06:27:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'kara.county' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `county`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `county`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 4 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 06:27:25 --> [Caused by] mysqli_sql_exception: Table 'kara.county' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `county`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `county`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `county`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 5 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-05 06:27:25 --> mysqli_sql_exception: Table 'kara.county' doesn't exist in E:\xampp New\htdocs\kara_new\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara_new\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp New\htdocs\kara_new\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp New\htdocs\kara_new\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp New\htdocs\kara_new\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara_new\app\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara_new\app\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+#6 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+#7 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+#8 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara_new\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara_new\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara_new\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-04-05 06:27:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'kara.county' doesn't exist
+[Method: GET, Route: admin/address/create-address]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 2 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 06:27:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'kara.county' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `county`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `county`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 4 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 06:27:25 --> [Caused by] mysqli_sql_exception: Table 'kara.county' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `county`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `county`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `county`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 5 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-05 06:27:25 --> mysqli_sql_exception: Table 'kara.county' doesn't exist in E:\xampp New\htdocs\kara_new\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp New\htdocs\kara_new\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp New\htdocs\kara_new\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp New\htdocs\kara_new\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp New\htdocs\kara_new\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara_new\app\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara_new\app\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+#6 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+#7 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+#8 E:\xampp New\htdocs\kara_new\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara_new\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara_new\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara_new\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-04-05 06:27:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'kara.county' doesn't exist
+[Method: GET, Route: admin/address/create-address]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 2 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 06:27:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'kara.county' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `county`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `county`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 4 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 06:27:25 --> [Caused by] mysqli_sql_exception: Table 'kara.county' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `county`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `county`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `county`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `county`', [], false)
+ 5 APPPATH\Models\Admin\AddressModel.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\Address.php(19): App\Models\Admin\AddressModel->countryList()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->createAddress()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 07:39:05 --> ErrorException: Undefined variable $countryList
+[Method: GET, Route: admin/address/edit-addess/3]
+in APPPATH\Views\admin\address\edit-address.php on line 30.
+ 1 APPPATH\Views\admin\address\edit-address.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countryList', 'E:\\xampp New\\htdocs\\kara_new\\app\\Views\\admin\\address\\edit-address.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\admin\\address\\edit-address.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/address/edit-address', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/address/edit-address', [...])
+ 6 APPPATH\Controllers\Admin\Address.php(38): App\Controllers\BaseController->adminFrontendLoad('address/edit-address', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->editAddress('3')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 08:59:25 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/state]
+in APPPATH\Controllers\Admin\Address.php on line 88.
+ 1 APPPATH\Controllers\Admin\Address.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\xampp New\\htdocs\\kara_new\\app\\Controllers\\Admin\\Address.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->state()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 08:59:27 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/state]
+in APPPATH\Controllers\Admin\Address.php on line 88.
+ 1 APPPATH\Controllers\Admin\Address.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\xampp New\\htdocs\\kara_new\\app\\Controllers\\Admin\\Address.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->state()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 08:59:44 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/state]
+in APPPATH\Controllers\Admin\Address.php on line 88.
+ 1 APPPATH\Controllers\Admin\Address.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\xampp New\\htdocs\\kara_new\\app\\Controllers\\Admin\\Address.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->state()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 08:59:48 --> ErrorException: Array to string conversion
+[Method: POST, Route: admin/state]
+in APPPATH\Controllers\Admin\Address.php on line 88.
+ 1 APPPATH\Controllers\Admin\Address.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'E:\\xampp New\\htdocs\\kara_new\\app\\Controllers\\Admin\\Address.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->state()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 13:29:45 --> ErrorException: Undefined array key "youtub_url"
+[Method: GET, Route: contact-us]
+in APPPATH\Views\home\common\footer.php on line 166.
+ 1 APPPATH\Views\home\common\footer.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "youtub_url"', 'E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\common\\footer.php', 166)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\common\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/footer', [], true)
+ 5 APPPATH\Controllers\BaseController.php(74): view('home/common/footer', [...])
+ 6 APPPATH\Controllers\Home.php(119): App\Controllers\BaseController->frontendLoad('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-05 13:29:47 --> ErrorException: Undefined array key "youtub_url"
+[Method: GET, Route: contact-us]
+in APPPATH\Views\home\common\footer.php on line 166.
+ 1 APPPATH\Views\home\common\footer.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "youtub_url"', 'E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\common\\footer.php', 166)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara_new\\app\\Views\\home\\common\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/footer', [], true)
+ 5 APPPATH\Controllers\BaseController.php(74): view('home/common/footer', [...])
+ 6 APPPATH\Controllers\Home.php(119): App\Controllers\BaseController->frontendLoad('contact', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contact()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

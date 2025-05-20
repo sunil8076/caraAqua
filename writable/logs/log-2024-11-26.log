@@ -1,0 +1,333 @@
+CRITICAL - 2024-11-26 10:26:58 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(65): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 10:34:30 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(63): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 10:40:28 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(65): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 10:45:23 --> ErrorException: Undefined variable $uploadDir
+[Method: POST, Route: admin/product/save]
+in APPPATH/Controllers/Admin/Product.php on line 58.
+ 1 APPPATH/Controllers/Admin/Product.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uploadDir', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Admin/Product.php', 58)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 10:45:47 --> ErrorException: Undefined variable $uploadDir
+[Method: POST, Route: admin/product/save]
+in APPPATH/Controllers/Admin/Product.php on line 58.
+ 1 APPPATH/Controllers/Admin/Product.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uploadDir', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Admin/Product.php', 58)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 10:46:53 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(65): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 10:49:58 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(65): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 10:51:09 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(65): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 10:55:48 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(66): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 10:56:36 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(67): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 10:59:17 --> ErrorException: Undefined variable $uploadDir
+[Method: POST, Route: admin/product/save]
+in APPPATH/Controllers/Admin/Product.php on line 63.
+ 1 APPPATH/Controllers/Admin/Product.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uploadDir', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Admin/Product.php', 63)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:03:20 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(76): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:05:06 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(64): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:05:33 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(64): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:06:20 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(66): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:09:35 --> ErrorException: Undefined variable $data
+[Method: POST, Route: admin/product/save]
+in APPPATH/Models/Admin/ProductModel.php on line 104.
+ 1 APPPATH/Models/Admin/ProductModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php', 104)
+ 2 APPPATH/Controllers/Admin/Product.php(65): App\Models\Admin\ProductModel->saveImage([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->save()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-26 11:34:15 --> mysqli_sql_exception: Unknown column 'product_id' in 'where clause' in /home2/cwltechin/public_html/dawar-jewellery/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home2/cwltechin/public_html/dawar-jewellery/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home2/cwltechin/public_html/dawar-jewellery/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home2/cwltechin/public_html/dawar-jewellery/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home2/cwltechin/public_html/dawar-jewellery/system/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home2/cwltechin/public_html/dawar-jewellery/app/Models/Admin/ProductModel.php(113): CodeIgniter\Database\BaseBuilder->get()
+#5 /home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Admin/Product.php(82): App\Models\Admin\ProductModel->productImageList('1')
+#6 /home2/cwltechin/public_html/dawar-jewellery/system/CodeIgniter.php(933): App\Controllers\Admin\Product->edit('1')
+#7 /home2/cwltechin/public_html/dawar-jewellery/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#8 /home2/cwltechin/public_html/dawar-jewellery/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home2/cwltechin/public_html/dawar-jewellery/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home2/cwltechin/public_html/dawar-jewellery/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home2/cwltechin/public_html/dawar-jewellery/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-11-26 11:34:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'where clause'
+[Method: GET, Route: admin/product/edit-product/1]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `shop_by_gender`
+WHERE `product_id` = :product_id:', [...], false)
+ 2 APPPATH/Models/Admin/ProductModel.php(113): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Product.php(82): App\Models\Admin\ProductModel->productImageList('1')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->edit('1')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:34:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'product_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `shop_by_gender`
+WHERE `product_id` = \'1\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `shop_by_gender`
+WHERE `product_id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `shop_by_gender`
+WHERE `product_id` = :product_id:', [...], false)
+ 4 APPPATH/Models/Admin/ProductModel.php(113): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Product.php(82): App\Models\Admin\ProductModel->productImageList('1')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->edit('1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:34:15 --> [Caused by] mysqli_sql_exception: Unknown column 'product_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *
+FROM `shop_by_gender`
+WHERE `product_id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `shop_by_gender`
+WHERE `product_id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `shop_by_gender`
+WHERE `product_id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `shop_by_gender`
+WHERE `product_id` = :product_id:', [...], false)
+ 5 APPPATH/Models/Admin/ProductModel.php(113): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Product.php(82): App\Models\Admin\ProductModel->productImageList('1')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->edit('1')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:38:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/product/edit-product/inject.js.map]
+in APPPATH/Controllers/Admin/Product.php on line 82.
+ 1 APPPATH/Controllers/Admin/Product.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Admin/Product.php', 82)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->edit('inject.js.map')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:38:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/product/edit-product/inject.js.map]
+in APPPATH/Controllers/Admin/Product.php on line 82.
+ 1 APPPATH/Controllers/Admin/Product.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Admin/Product.php', 82)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->edit('inject.js.map')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:40:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/product/edit-product/inject.js.map]
+in APPPATH/Controllers/Admin/Product.php on line 82.
+ 1 APPPATH/Controllers/Admin/Product.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Admin/Product.php', 82)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Product->edit('inject.js.map')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:54:34 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/register-user]
+in APPPATH/Views/admin/client-list.php on line 38.
+ 1 APPPATH/Views/admin/client-list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home2/cwltechin/public_html/dawar-jewellery/app/Views/admin/client-list.php', 38)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/cwltechin/public_html/dawar-jewellery/app/Views/admin/client-list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/client-list', [], true)
+ 5 APPPATH/Controllers/BaseController.php(65): view('admin/client-list', [...])
+ 6 APPPATH/Controllers/Admin/Home.php(62): App\Controllers\BaseController->adminFrontendLoad('client-list', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Home->clientList()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 11:54:52 --> ErrorException: Undefined variable $bannerList
+[Method: GET, Route: admin/register-user]
+in APPPATH/Views/admin/client-list.php on line 55.
+ 1 APPPATH/Views/admin/client-list.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bannerList', '/home2/cwltechin/public_html/dawar-jewellery/app/Views/admin/client-list.php', 55)
+ 2 SYSTEMPATH/View/View.php(234): include('/home2/cwltechin/public_html/dawar-jewellery/app/Views/admin/client-list.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/client-list', [], true)
+ 5 APPPATH/Controllers/BaseController.php(65): view('admin/client-list', [...])
+ 6 APPPATH/Controllers/Admin/Home.php(62): App\Controllers\BaseController->adminFrontendLoad('client-list', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Home->clientList()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 15:12:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 667.
+ 1 APPPATH/Controllers/Home.php(667): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 667)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 16:01:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 667.
+ 1 APPPATH/Controllers/Home.php(667): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 667)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-26 16:03:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: cartList]
+in APPPATH/Controllers/Home.php on line 667.
+ 1 APPPATH/Controllers/Home.php(667): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/home2/cwltechin/public_html/dawar-jewellery/app/Controllers/Home.php', 667)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->cartList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

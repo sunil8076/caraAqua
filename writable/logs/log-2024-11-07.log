@@ -1,0 +1,1047 @@
+CRITICAL - 2024-11-07 07:26:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('admin')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:26:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: images/bg-img/footer-bg.webp]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('images', 'bg-img', 'footer-bg.webp')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:31:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: resources/demos/style.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('resources', 'demos', 'style.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:31:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:31:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:31:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: resources/demos/style.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('resources', 'demos', 'style.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:38:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:38:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: resources/demos/style.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('resources', 'demos', 'style.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:38:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:38:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: resources/demos/style.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('resources', 'demos', 'style.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:38:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:38:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: resources/demos/style.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('resources', 'demos', 'style.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:39:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: assets/css/fontawesome.min.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('assets', 'css', 'fontawesome.min.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 07:39:02 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: resources/demos/style.css]
+in APPPATH/Controllers/Home.php on line 95.
+ 1 APPPATH/Controllers/Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 95)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->categoryDetail('resources', 'demos', 'style.css')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:16:06 --> Error: Class "App\Controllers\Services" not found
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:22:48 --> Error: Call to undefined method App\Controllers\Home::validateToken()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:22:58 --> Error: Call to undefined method App\Controllers\Home::validateToken()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 39.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:23:28 --> Error: Call to undefined method App\Controllers\Home::respond()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 47.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:23:35 --> Error: Call to undefined method App\Controllers\Home::respond()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:23:55 --> Error: Call to undefined method App\Controllers\Home::respond()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:24:43 --> Error: Call to undefined method App\Controllers\Home::respond()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:40:55 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:41:02 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:41:11 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:41:14 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:41:41 --> ParseError: syntax error, unexpected token "return", expecting "function" or "const"
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 64.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:42:21 --> Error: Call to undefined method App\Controllers\Home::respond()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:42:27 --> Error: Call to undefined method App\Controllers\Home::respond()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:44:44 --> Error: Call to undefined method App\Controllers\Home::respond()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 08:45:13 --> TypeError: App\Controllers\BaseController::json_response(): Argument #1 ($status) must be of type int, array given, called in /Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php on line 31
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/BaseController.php on line 81.
+ 1 APPPATH/Controllers/Home.php(31): App\Controllers\BaseController->json_response([...], 401)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 09:34:46 --> Error: Class "App\Controllers\Services" not found
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 09:35:34 --> Error: Class "App\Controllers\Services" not found
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 09:37:12 --> Error: Class "App\Controllers\Services" not found
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 09:37:53 --> Error: Class "App\Controllers\Services" not found
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 09:38:18 --> Error: Class "App\Controllers\Services" not found
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 09:38:20 --> Error: Class "App\Controllers\Services" not found
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 09:40:36 --> ParseError: Unclosed '{' on line 7
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 99.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:04:24 --> Error: Call to undefined method App\Controllers\Home::respond()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:04:32 --> Error: Call to undefined method App\Controllers\Home::respond()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:04:37 --> Error: Call to undefined method App\Controllers\Home::respond()
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 36.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:13:12 --> ErrorException: Undefined property: App\Controllers\Home::$output
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 38.
+ 1 APPPATH/Controllers/Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$output', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:13:18 --> ErrorException: Undefined property: App\Controllers\Home::$output
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 38.
+ 1 APPPATH/Controllers/Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$output', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 38)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:13:30 --> ErrorException: Undefined property: App\Controllers\Home::$output
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$output', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:14:36 --> ErrorException: Undefined property: App\Controllers\Home::$output
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$output', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:14:46 --> ErrorException: Undefined property: App\Controllers\Home::$output
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$output', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:15:01 --> ErrorException: Undefined property: App\Controllers\Home::$output
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$output', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:15:16 --> ErrorException: Undefined property: App\Controllers\Home::$output
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$output', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:15:17 --> ErrorException: Undefined property: App\Controllers\Home::$output
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 41.
+ 1 APPPATH/Controllers/Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$output', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:27:50 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:28:15 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:28:27 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:28:36 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:29:22 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:30:17 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:31:54 --> Error: Call to a member function getRowArray() on null
+[Method: POST, Route: saveUser]
+in APPPATH/Models/HomeModel.php on line 16.
+ 1 APPPATH/Controllers/Home.php(65): App\Models\HomeModel->checkUserEmail('kansal.vipul61@gmail.com')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:32:04 --> ErrorException: Undefined variable $json_array
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 88.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_array', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 88)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:32:41 --> ErrorException: Undefined variable $json_array
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 88.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_array', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 88)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:32:54 --> ErrorException: Undefined variable $json_array
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 88.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_array', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 88)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:32:56 --> ErrorException: Undefined variable $json_array
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 88.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_array', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 88)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:32:59 --> ErrorException: Undefined variable $json_array
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 88.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_array', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 88)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:33:00 --> ErrorException: Undefined variable $json_array
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 88.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_array', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 88)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:33:05 --> ErrorException: Undefined variable $json_array
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 88.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_array', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 88)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:33:18 --> ErrorException: Undefined variable $json_array
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 88.
+ 1 APPPATH/Controllers/Home.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $json_array', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 88)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:35:39 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:36:09 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:37:07 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:37:18 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:37:40 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:37:54 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:38:09 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:38:13 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:39:10 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:39:21 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:39:30 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:39:57 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:40:22 --> ErrorException: Undefined variable $checkUser
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 66.
+ 1 APPPATH/Controllers/Home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $checkUser', '/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php', 66)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:50:24 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 53.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:50:37 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 54.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:51:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 51.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:51:32 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: POST, Route: saveUser]
+in APPPATH/Controllers/Home.php on line 51.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-07 10:51:43 --> mysqli_sql_exception: Unknown column 'otp' in 'field list' in /Applications/MAMP/htdocs/dawar-jewellery/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `te...', 0)
+#1 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 /Applications/MAMP/htdocs/dawar-jewellery/app/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php(35): App\Models\HomeModel->saveTempUser(Array)
+#6 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+#7 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/dawar-jewellery/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/dawar-jewellery/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Applications/MAMP/htdocs/dawar-jewellery/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-11-07 10:51:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'otp' in 'field list'
+[Method: POST, Route: saveUser]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 2 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Home.php(35): App\Models\HomeModel->saveTempUser([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:51:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'otp' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:51:43\', 0)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:51:43\', 0)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 4 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Home.php(35): App\Models\HomeModel->saveTempUser([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:51:43 --> [Caused by] mysqli_sql_exception: Unknown column 'otp' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:51:43\', 0)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:51:43\', 0)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:51:43\', 0)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 5 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Home.php(35): App\Models\HomeModel->saveTempUser([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-07 10:51:52 --> mysqli_sql_exception: Unknown column 'otp' in 'field list' in /Applications/MAMP/htdocs/dawar-jewellery/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `te...', 0)
+#1 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 /Applications/MAMP/htdocs/dawar-jewellery/app/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php(35): App\Models\HomeModel->saveTempUser(Array)
+#6 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+#7 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/dawar-jewellery/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/dawar-jewellery/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Applications/MAMP/htdocs/dawar-jewellery/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-11-07 10:51:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'otp' in 'field list'
+[Method: POST, Route: saveUser]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 2 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Home.php(35): App\Models\HomeModel->saveTempUser([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:51:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'otp' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:51:52\', 0)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:51:52\', 0)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 4 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Home.php(35): App\Models\HomeModel->saveTempUser([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:51:52 --> [Caused by] mysqli_sql_exception: Unknown column 'otp' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:51:52\', 0)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:51:52\', 0)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:51:52\', 0)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 5 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Home.php(35): App\Models\HomeModel->saveTempUser([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-07 10:52:53 --> mysqli_sql_exception: Unknown column 'otp' in 'field list' in /Applications/MAMP/htdocs/dawar-jewellery/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `te...', 0)
+#1 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 /Applications/MAMP/htdocs/dawar-jewellery/app/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php(36): App\Models\HomeModel->saveTempUser(Array)
+#6 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+#7 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/dawar-jewellery/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/dawar-jewellery/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Applications/MAMP/htdocs/dawar-jewellery/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-11-07 10:52:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'otp' in 'field list'
+[Method: POST, Route: saveUser]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 2 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Home.php(36): App\Models\HomeModel->saveTempUser([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:52:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'otp' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:52:53\', 0)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:52:53\', 0)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 4 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Home.php(36): App\Models\HomeModel->saveTempUser([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:52:53 --> [Caused by] mysqli_sql_exception: Unknown column 'otp' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:52:53\', 0)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:52:53\', 0)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:52:53\', 0)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 5 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Home.php(36): App\Models\HomeModel->saveTempUser([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-07 10:53:12 --> mysqli_sql_exception: Unknown column 'otp' in 'field list' in /Applications/MAMP/htdocs/dawar-jewellery/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `te...', 0)
+#1 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `te...')
+#2 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `te...')
+#3 /Applications/MAMP/htdocs/dawar-jewellery/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `te...', Array, false)
+#4 /Applications/MAMP/htdocs/dawar-jewellery/app/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /Applications/MAMP/htdocs/dawar-jewellery/app/Controllers/Home.php(36): App\Models\HomeModel->saveTempUser(Array)
+#6 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+#7 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /Applications/MAMP/htdocs/dawar-jewellery/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/dawar-jewellery/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Applications/MAMP/htdocs/dawar-jewellery/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Applications/MAMP/htdocs/dawar-jewellery/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-11-07 10:53:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'otp' in 'field list'
+[Method: POST, Route: saveUser]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 2 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Home.php(36): App\Models\HomeModel->saveTempUser([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:53:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'otp' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:53:12\', 0)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:53:12\', 0)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 4 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Home.php(36): App\Models\HomeModel->saveTempUser([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 10:53:12 --> [Caused by] mysqli_sql_exception: Unknown column 'otp' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:53:12\', 0)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:53:12\', 0)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (\'Vipul\', \'Kansal\', \'kansal.vipul61@gmail.com\', \'8800488945\', \'123456\', \'cb0936cfee986d3e3ec6d1d77cc57888\', \'2024-11-07 10:53:12\', 0)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `temp_client` (`fname`, `lname`, `email`, `mobile`, `otp`, `password`, `date`, `status`) VALUES (:fname:, :lname:, :email:, :mobile:, :otp:, :password:, :date:, :status:)', [...], false)
+ 5 APPPATH/Models/HomeModel.php(30): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Home.php(36): App\Models\HomeModel->saveTempUser([...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveUser()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 13:00:04 --> ErrorException: Undefined variable $title
+[Method: GET, Route: admin/banner]
+in APPPATH/Views/admin/common/header.php on line 6.
+ 1 APPPATH/Views/admin/common/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/Applications/MAMP/htdocs/dawar-jewellery/app/Views/admin/common/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/dawar-jewellery/app/Views/admin/common/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH/Controllers/BaseController.php(64): view('admin/common/header', [...])
+ 6 APPPATH/Controllers/Admin/Banner.php(15): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-07 13:04:56 --> ErrorException: Undefined variable $title
+[Method: GET, Route: admin/banner]
+in APPPATH/Views/admin/common/header.php on line 6.
+ 1 APPPATH/Views/admin/common/header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', '/Applications/MAMP/htdocs/dawar-jewellery/app/Views/admin/common/header.php', 6)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/MAMP/htdocs/dawar-jewellery/app/Views/admin/common/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('admin/common/header', [], true)
+ 5 APPPATH/Controllers/BaseController.php(64): view('admin/common/header', [...])
+ 6 APPPATH/Controllers/Admin/Banner.php(15): App\Controllers\BaseController->adminFrontendLoad('banner/index', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Banner->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Banner))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
